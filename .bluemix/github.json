@@ -6,9 +6,9 @@
     "type": "object",
     "properties": {
       "type": {
-        "type": "string",
+            "type": "string",
 	    "description": "Repository Type", 
-	    "title":"Repository Type"  
+	    "title":"Repository Type",  
 	    "default": "new",
 	    "readonly": true      
       },   
