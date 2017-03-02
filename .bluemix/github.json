@@ -6,21 +6,21 @@
     "type": "object",
     "properties": {
       "type": {
-        "type": "string",
-	    "description": "Repository Type",      
-	    "enum": ["new"],
+            "type": "string",
+	    "description": "Repository Type", 
+	    "title":"Repository Type",  
+	    "default": "new",
 	    "readonly": true      
       },   
       "repo_name": {
           "title":"New repository name",
-	      "description": "New repository name",
+	  "description": "New repository name",
           "type": "string"
       },       
       "existing_repo_url": {          
           "title": "Existing Git Repository",
 	      "description": "This is the repository from where the source code will be imported.",
-          "type": "string",
-          "readonly" : true
+          "type": "string"
       },
       "has_issues": {
 		"title": "Enable GitHub Enterprise Issues",
@@ -36,15 +36,15 @@
         "url": "/devops/setup/bm-helper/github_helper.html"
       },  
       {
-	    "type": "selectfieldset",
-	    "key": "type",
-	    "titleMap": {
-		    "new": "New",
-	    },
-	    "items": [{
-		    "type": "section",
-		    "items": ["repo_name", "existing_repo_url"]
-	    }]     
+        "key": "type",
+        "readonly": true
+       },
+      {
+        "key": "repo_name" 
+      },  
+      {
+      	"key": "existing_repo_url",
+        "readonly" : true
       }
     ],
     "actions": {
