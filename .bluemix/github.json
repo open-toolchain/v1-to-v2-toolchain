@@ -2,7 +2,7 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "New Git repository",
     "description": "Git repository schema",
-    "longDescription": "Source code from your existing repository will be migrated to a new repository in IBM Hosted Git. You can engage in social coding through wikis, issue tracking, and pull requests.",
+    "longDescription": "Source code from your existing repository will be migrated to a new repository on IBM Hosted Git. You can engage in social coding through wikis, issue tracking, and pull requests.",
     "type": "object",
     "properties": {
       "type": {
@@ -41,19 +41,19 @@
 	      "default": true
       },
       "migrateTAndP": {
-      	      "title": "Do you wish to migrate Track & Plan Work Items to Git Issues?",
-	      "description": "Track & Plan Work Items will be created as Git Issues in your newly created repository",
+      	      "title": "Do you want to migrate Track & Plan work items to GitHub Issues?",
+	      "description": "Track & Plan work items will be created as Git issues in your newly created repository",
 	      "type": "boolean",
 	      "enum": ["Yes", "No"]
       },
       "query": {
              "type": "string",
-	     "title": "Specify Track & Plan Query",
+	     "title": "Track & Plan query",
 	     "default": ""
       },
       "labels": {
         "type": "object",
-        "title": "Git Issues use labels to track attributes. You can select which Track & Plan Work Item attributes to map to labels in your new Git Issues here:",
+        "title": "Git issues use labels to track attributes. Select which work item attributes to map to labels in your new Git issues:",
         "properties": {
           "type": {"title": "type", "type": "boolean"},
           "severity": {"title": "severity", "type": "boolean"},
@@ -75,7 +75,7 @@
 	    "type": "selectfieldset",
 	    "key": "type",
 	    "titleMap": {
-		    "new": "New",
+		    "new": "New"
 	    },
 	    "items": [{
 		    "type": "section",
@@ -90,9 +90,7 @@
 		{
 		  "type": "label",
 		  "key": "desc",
-		  "title": "Your newly created toolchain uses Git Issues for Issue tracking.  
-			      
-			To keep your existing Track & Plan data it must be transferred to Git Issues now. [Detailed info available here](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html)"	
+		  "title": "Your new toolchain uses GitHub Issues for issue tracking.\n\nTo keep your Track & Plan data, you must transfer it to GitHub Issues now. [Learn more](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html)"	
 		},
 		{
 			"type": "selectfieldset",
@@ -108,8 +106,8 @@
 			       "items" : [{
              				"type": "label",
 				        "key" : "desc",
-             				"title": "Specify the name of the [Track & Plan Query]({{rtcSharedQueriesLink}}) to select the Work Items to be migrated",
-				        "description": "Work Items will be selected based on this Query (from Shared Queries). If Query is not specified, all Work Items are selected."
+             				"title": "By default, all of your work items are migrated. If you want to migrate only specific items, specify a [Track & Plan query]({{rtcSharedQueriesLink}}).",
+				        "description": "Work Items will be selected based on this query (from Shared Queries). If a query is not specified, all work items are selected."
       					},{
 					"type": "string",
 					"key": "query",
