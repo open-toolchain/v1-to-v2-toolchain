@@ -53,7 +53,7 @@
       },
       "labels": {
         "type": "object",
-        "title": "Git issues use labels to track attributes. Select which work item attributes to map to labels in your new Git issues:",
+        "title": "Git issues use labels to track attributes. Select which work item attributes to map to labels in your new Git issues",
         "properties": {
           "type": {"title": "type", "type": "boolean"},
           "severity": {"title": "severity", "type": "boolean"},
