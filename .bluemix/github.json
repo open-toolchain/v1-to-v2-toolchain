@@ -2,7 +2,7 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "New Git repository",
     "description": "Git repository schema",
-    "longDescription": "Source code from your existing repository will be migrated to a new repository in IBM Hosted Git. You can engage in social coding through wikis, issue tracking, and pull requests.",
+    "longDescription": "Source code from your existing repository will be migrated to a new repository on IBM Hosted Git. You can engage in social coding through wikis, issue tracking, and pull requests.",
     "type": "object",
     "properties": {
       "type": {
@@ -51,7 +51,7 @@
 	    "type": "selectfieldset",
 	    "key": "type",
 	    "titleMap": {
-		    "new": "New",
+		    "new": "New"
 	    },
 	    "items": [{
 		    "type": "section",
