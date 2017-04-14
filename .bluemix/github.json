@@ -23,7 +23,7 @@
 		"description": "Enable GitHub Enterprise Issues page for lightweight issue tracking.",
 		"type": "boolean",
 		"default": true
-	  },
+      },
       "migrateTAndP": {
       	            "title": "Do you want to migrate Track & Plan work items to GitHub Enterprise Issues?",
 	            "description": "Track & Plan work items will be created as GitHub Enterprise issues in the existing repository",
@@ -47,7 +47,7 @@
           "filedAgainst": {"title": "filedAgainst", "type": "boolean"},
           "tags": {"title": "tags", "type": "boolean"}
         }
-      }
+      },
       "enable_traceability": {
 	      "type": "boolean",
 	      "title": "Track deployment of code changes",
