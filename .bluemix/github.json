@@ -24,6 +24,30 @@
 		"type": "boolean",
 		"default": true
 	  },
+      "migrateTAndP": {
+      	            "title": "Do you want to migrate Track & Plan work items to GitHub Enterprise Issues?",
+	            "description": "Track & Plan work items will be created as GitHub Enterprise issues in the existing repository",
+	            "type": "boolean",
+	            "enum": ["Yes", "No"]
+      },
+      "query": {
+             "type": "string",
+	     "title": "Track & Plan query",
+	     "default": ""
+      },
+      "labels": {
+        "type": "object",
+        "title": "GitHub Enterprise issues use labels to track attributes. Select which work item attributes to map to labels in your new GitHub Enterprise issues",
+        "properties": {
+          "type": {"title": "type", "type": "boolean"},
+          "severity": {"title": "severity", "type": "boolean"},
+          "state": {"title": "state", "type": "boolean"},
+          "priority": {"title": "priority", "type": "boolean"},
+          "resolution": {"title": "resolution", "type": "boolean"},
+          "filedAgainst": {"title": "filedAgainst", "type": "boolean"},
+          "tags": {"title": "tags", "type": "boolean"}
+        }
+      }
       "enable_traceability": {
 	      "type": "boolean",
 	      "title": "Track deployment of code changes",
@@ -45,10 +69,49 @@
       "type": "string",
       "key": "existing_repo_url",
       "readonly": "true"
-     }, {
+     },{
+      	"type": "group",
+	"title": "Track & Plan Migration",
+	"description": "Details for setting up the migration of your Track & Plan Work Items",
+	"items" : [
+		{
+		  "type": "label",
+		  "key": "desc",
+		  "title": "Your new toolchain uses GitHub Enterprise Issues for issue tracking. \n\nTo keep your Track & Plan data, you must transfer it to GitHub Enterprise Issues now. [Learn more](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html)"	
+		},
+		 {
+			"type": "selectfieldset",
+			"key": "migrateTAndP",
+			"readonly": true,
+			"title-map": {
+				 "Yes" : "Yes",
+				 "No" : "No"
+			},
+			"items": [{
+			       "type" : "section",
+			       "description" : "",
+			       "items" : [{
+             				"type": "label",
+				        "key" : "desc",
+             				"title": "By default, all of your work items are migrated. If you want to migrate only specific items, specify a [Track & Plan query]({{rtcSharedQueriesLink}}).",
+				        "description": "Work Items will be selected based on this Query (from Shared Queries). If Query is not specified, all work items are selected."
+      					},{
+					"type": "string",
+					"key": "query",
+					"readonly": false
+					},
+					"labels"]
+			       }, {
+			       "type" : "label",
+			       "description" : "Track & Plan data will not be migrated."
+			       }]
+	      }
+	
+	]
+     },{
       	"type": "boolean",       
 	"key": "enable_traceability"       
-       }
+     }
     ],
     "actions": {        
         "update": ["repo_url","has_issues"]
