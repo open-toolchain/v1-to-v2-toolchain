@@ -41,7 +41,7 @@
 	      "default": true
       },
       "migrateTAndP": {
-      	      "title": "Migrate Track & Plan Work Items to Git Issues",
+      	      "title": "Migrate Track & Plan work items to Git Issues",
 	      "description": "Track & Plan work items will be created as Git issues in your newly created repository. Choose 'Yes' if you want to migrate.",
 	      "type": "boolean",
 	      "enum": ["Yes", "No"]
