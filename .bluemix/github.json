@@ -77,7 +77,7 @@
 		{
 		  "type": "label",
 		  "key": "desc",
-		  "title": "Your new toolchain uses GitHub Enterprise Issues for issue tracking. \n\nTo keep your Track & Plan data, you must transfer it to GitHub Enterprise Issues now. [Learn more](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html)."	
+		  "title": "Your new toolchain uses GitHub Enterprise Issues for issue tracking. \n\nTo keep your Track & Plan data, you must transfer it to GitHub Enterprise Issues now. [Learn more](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#start_upgrade)."	
 		},
 		 {
 			"type": "selectfieldset",
