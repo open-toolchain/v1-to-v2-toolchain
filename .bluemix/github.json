@@ -41,7 +41,7 @@
 	      "default": true
       },
       "migrateTAndP": {
-      	      "title": "Do you want to migrate Track & Plan work items to GitHub Issues?",
+      	      "title": "Do you want to migrate Track & Plan work items to Git Issues",
 	      "description": "Track & Plan work items will be created as Git issues in your newly created repository.",
 	      "type": "boolean",
 	      "enum": ["Yes", "No"]
@@ -90,7 +90,7 @@
 		{
 		  "type": "label",
 		  "key": "desc",
-		  "title": "Your new toolchain uses GitHub Issues for issue tracking.\n\nTo keep your Track & Plan data, you must transfer it to GitHub Issues now. [Learn more](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html)."	
+		  "title": "Your new toolchain uses Git Issues for issue tracking.\n\nTo keep your Track & Plan data, you must transfer it to Git Issues now. [Learn more](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html)."	
 		},
 		{
 			"type": "selectfieldset",
