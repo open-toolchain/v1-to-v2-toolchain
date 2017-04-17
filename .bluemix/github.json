@@ -85,7 +85,7 @@
       {
       	"type": "group",
 	"title": "Track & Plan Migration",
-	"description": "Details for setting up the migration of your Track & Plan Work Items",
+	"description": "Details for setting up the migration of your Track & Plan Work Items.",
 	"items" : [
 		{
 		  "type": "label",
