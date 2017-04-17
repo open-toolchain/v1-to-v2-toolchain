@@ -35,7 +35,7 @@
 		"default": true
       },
       "migrateTAndP": {
-      	            "title": "Migrate Track & Plan Work Items to GitHub Enterprise Issues",
+      	            "title": "Migrate Track & Plan work items to GitHub Enterprise Issues",
 	            "description": "Track & Plan work items will be created as GitHub Enterprise issues in your new repository. Choose 'Yes' if you want to migrate.",
 	            "type": "boolean",
 	            "enum": ["Yes", "No"]
