@@ -37,7 +37,7 @@
       "enable_traceability": {
 	      "type": "boolean",
 	      "title": "Track deployment of code changes",
-	      "description": "Select this check box to track the deployment of code changes by creating tags, labels and comments on commits, pull requests and referenced issues.",
+	      "description": "Select this check box to track the deployment of code changes by creating tags, labels and comments on commits, pull requests and referenced issues. If you wish to enable later, you can right-click on the Git repo card in the Toolchain page and click Configure.",
 	      "default": true
       },
       "migrateTAndP": {
