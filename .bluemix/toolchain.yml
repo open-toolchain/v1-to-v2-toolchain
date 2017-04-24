@@ -28,8 +28,10 @@ toolchain:
     v1-ProjectPublicVisibility: '{{v1ProjectPublicVisibility}}'
     getting_started: >-
       This toolchain was created from your [DevOps Services
-      project]({{projectUrl}}). Before you use the toolchain, verify the status of your upgrade by completing [these steps](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps).
-      To learn more about toolchains, see [Getting started with Continuous
+      project]({{projectUrl}}). Migration of artifacts from the project to the tools in the toolchain continues 
+      for a while after the toolchain is created. Before you use the toolchain, verify the status of the upgrade 
+      by reviewing the banner on the [project page]({{projectUrl}}), then refer to [these steps](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps) 
+      for what to do next. To learn more about toolchains, see [Getting started with Continuous
       Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).
   name: '{{projectName}}'
   generator: migration-engine
