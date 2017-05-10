@@ -1,18 +1,33 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "title": "Github link",
-    "description": "Github link schema",
-    "longDescription": "Store your source code in an existing repository on GitHub.com and engage in social coding through wikis, issue tracking, and pull requests.",
+    "messages": {
+       "$i18n": "locales.yml"
+    },
+    "title": {
+      "$ref": "#/messages/github.title"
+    },
+    "description": {
+      "$ref": "#/messages/github.description"
+    },
+    "longDescription": {
+      "$ref": "#/messages/github.longDescription"
+    },
     "type": "object",
     "properties": {
       "repo_url": {
           "type": "string",
-          "title": "Source repository URL"
+          "title": {
+            "$ref": "#/messages/github.sourceRepository"
+          }
       },
       "repo_type": {
         "type": "string",
-        "title": "Repository type",
-        "default": "Existing"
+        "title": {
+          "$ref": "#/messages/github.repositoryType"
+        },
+        "default": {
+          "$ref": "#/messages/github.existing"
+        }
       }
     },
     "form": [
@@ -21,7 +36,9 @@
         "key": "repo_type",
         "readonly": "true"
        }, {
-      "description": "The repository that your toolchain will link to.",
+      "description": {
+        "$ref": "#/messages/github.repoType.description"
+      },
       "type": "string",
       "key": "repo_url",
       "readonly": "true"
