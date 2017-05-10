@@ -1,44 +1,75 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "title": "New Git repository",
-    "description": "Git repository schema",
-    "longDescription": "Source code from your existing repository will be migrated to a new repository on IBM Hosted Git. You can engage in social coding through wikis, issue tracking, and pull requests.",
+    "messages": {
+       "$i18n": "locales.yml"
+    },
+    "title": {
+      "$ref": "#/messages/github.title"
+    },
+    "description": {
+      "$ref": "#/messages/github.description"
+    },
+    "longDescription": {
+      "$ref": "#/messages/github.longDescription"
+    },
     "type": "object",
     "properties": {
       "type": {
         "type": "string",
-	    "description": "Repository Type",      
-	    "enum": ["new"],
-	    "readonly": true      
-      },   
+      "description": {
+        "$ref": "#/messages/github.repositoryType"
+      },
+      "enum": ["new"],
+      "readonly": true
+      },
       "repo_name": {
-          "title":"New repository name",
-	      "description": "New repository name",
-          "type": "string"
-      },       
-      "existing_repo_url": {          
-          "title": "Existing Git Repository",
-	  "description": "This is the repository from where the source code will be imported.",
-          "type": "string",
-          "readonly" : true
+        "title": {
+          "$ref": "#/messages/github.repositoryName"
+        },
+       "description": {
+          "$ref": "#/messages/github.newRepoDescription"
+        },
+        "type": "string"
+      },
+      "existing_repo_url": {
+        "title": {
+          "$ref": "#/messages/github.existingRepository"
+        },
+	      "description": {
+          "$ref": "#/messages/github.existingRepoDescription"
+        },
+        "type": "string",
+        "readonly" : true
       },
       "private_repo": {
-         "title": "Private Repository",
-         "description": "Select this check box to create a private repository.",
-         "type": "boolean",
-         "default": true
-      },	    
+        "title": {
+          "$ref": "#/messages/github.privateRepository"
+        },
+        "description": {
+          "$ref": "#/messages/github.privateRepoDescription"
+        },
+        "type": "boolean",
+        "default": true
+      },
       "has_issues": {
-		"title": "Enable GitHub Enterprise Issues",
-		"description": "Enable GitHub Enterprise Issues page for lightweight issue tracking.",
-		"type": "boolean",
-		"default": true
+        "title": {
+          "$ref": "#/messages/github.enableIssues"
+        },
+        "description": {
+          "$ref": "#/messages/github.enableIssuesDescription"
+        },
+        "type": "boolean",
+        "default": true
       },
       "enable_traceability": {
-	      "type": "boolean",
-	      "title": "Track deployment of code changes",
-	      "description": "Select this check box to track the deployment of code changes by creating tags, labels and comments on commits, pull requests and referenced issues. If you want to enable later, you can right-click on the Git repo card in the Toolchain page and click Configure.",
-	      "default": true
+        "type": "boolean",
+        "title": {
+          "$ref": "#/messages/github.trackDeployment"
+        },
+        "description": {
+          "$ref": "#/messages/github.trackDeployDescription"
+        },
+        "default": true
       }
     },
     "required": ["repo_name"],
@@ -46,20 +77,23 @@
       {
         "type": "validator",
         "url": "/devops/setup/bm-helper/github_helper.html"
-      },  
+      },
       {
-	    "type": "selectfieldset",
-	    "key": "type",
-	    "titleMap": {
-		    "new": "New"
-	    },
-	    "items": [{
-		    "type": "section",
-		    "items": ["repo_name", "existing_repo_url"]
-	    }]     
-      }, {
-	"type": "boolean",       
-	"key": "enable_traceability"       
+      "type": "selectfieldset",
+      "key": "type",
+      "titleMap": {
+        "new": {
+          "$ref": "#/messages/github.new"
+        }
+      },
+      "items": [{
+        "type": "section",
+          "items": ["repo_name", "existing_repo_url"]
+      }]
+      },
+      {
+        "type": "boolean",
+        "key": "enable_traceability"
       }
     ],
     "actions": {
