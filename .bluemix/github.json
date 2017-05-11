@@ -1,67 +1,141 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "title": "New Git repository",
-    "description": "Git repository schema",
-    "longDescription": "Source code from your existing repository will be migrated to a new repository on IBM Hosted Git. You can engage in social coding through wikis, issue tracking, and pull requests.",
+    "messages": {
+      "$i18n": "locales.yml"
+    },
+    "title": {
+      "$ref": "#/messages/github.title"
+    },
+    "description": {
+      "$ref": "#/messages/github.description"
+    },
+    "longDescription": {
+      "$ref": "#/messages/github.longDescription"
+    },
     "type": "object",
     "properties": {
       "type": {
         "type": "string",
-	    "description": "Repository Type",      
-	    "enum": ["new"],
-	    "readonly": true      
-      },   
+        "description": {
+          "$ref": "#/messages/github.repositoryType"
+        },
+        "enum": ["new"],
+        "readonly": true
+      },
       "repo_name": {
-          "title":"New repository name",
-	      "description": "New repository name",
-          "type": "string"
-      },       
-      "existing_repo_url": {          
-          "title": "Existing Git Repository",
-	  "description": "This is the repository from where the source code will be imported.",
-          "type": "string",
-          "readonly" : true
+        "title": {
+          "$ref": "#/messages/github.repositoryName"
+        },
+        "description": {
+          "$ref": "#/messages/github.newRepoDescription"
+        },
+        "type": "string"
+      },
+      "existing_repo_url": {
+        "title": {
+          "$ref": "#/messages/github.existingRepository"
+        },
+	      "description": {
+          "$ref": "#/messages/github.existingRepoDescription"
+        },
+        "type": "string",
+        "readonly" : true
       },
       "private_repo": {
-         "title": "Private Repository",
-         "description": "Select this check box to create a private repository.",
-         "type": "boolean",
-         "default": true
-      },	    
+        "title": {
+          "$ref": "#/messages/github.privateRepository"
+        },
+        "description": {
+          "$ref": "#/messages/github.privateRepoDescription"
+        },
+        "type": "boolean",
+        "default": true
+      },
       "has_issues": {
-		"title": "Enable Git Issues",
-		"description": "Enable Git Issues page for lightweight issue tracking.",
-		"type": "boolean",
-		"default": true
+        "title": {
+          "$ref": "#/messages/github.enableIssues"
+        },
+        "description": {
+          "$ref": "#/messages/github.enableIssuesDescription"
+        },
+        "type": "boolean",
+        "default": true
       },
       "enable_traceability": {
-	      "type": "boolean",
-	      "title": "Track deployment of code changes",
-	      "description": "Select this check box to track the deployment of code changes by creating tags, labels and comments on commits, pull requests and referenced issues. If you want to enable later, you can right-click on the Git repo card in the Toolchain page and click Configure.",
-	      "default": true
+        "type": "boolean",
+          "title": {
+            "$ref": "#/messages/github.trackDeployment"
+          },
+          "description": {
+            "$ref": "#/messages/github.trackDeployDescription"
+          },
+          "default": true
       },
       "migrateTAndP": {
-      	      "title": "Migrate Track & Plan work items to Git Issues",
-	      "description": "Track & Plan work items will be created as Git issues in your newly created repository. Choose 'Yes' if you want to migrate.",
-	      "type": "boolean",
-	      "enum": ["Yes", "No"]
+        "title": {
+          "$ref": "#/messages/github.migrateTAndP"
+        },
+        "description": {
+          "$ref": "#/messages/github.migrateTAndPDescription"
+        },
+        "type": "boolean",
+        "enum": ["Yes", "No"]
       },
       "query": {
-             "type": "string",
-	     "title": "Track & Plan query",
-	     "default": ""
+        "type": "string",
+        "title": {
+          "$ref": "#/messages/github.trackAndPlanQuery"
+        },
+        "default": ""
       },
       "labels": {
         "type": "object",
-        "title": "Git issues use labels to track attributes. Select which work item attributes to map to labels in your new Git issues",
+        "title": {
+          "$ref": "#/messages/github.labelsTitle"
+        },
         "properties": {
-          "type": {"title": "type", "type": "boolean"},
-          "severity": {"title": "severity", "type": "boolean"},
-          "state": {"title": "state", "type": "boolean"},
-          "priority": {"title": "priority", "type": "boolean"},
-          "resolution": {"title": "resolution", "type": "boolean"},
-          "filedAgainst": {"title": "filedAgainst", "type": "boolean"},
-          "tags": {"title": "tags", "type": "boolean"}
+          "type": {
+            "title": {
+              "$ref": "#/messages/github.labelType"
+            },
+            "type": "boolean"
+          },
+          "severity": {
+            "title": {
+              "$ref": "#/messages/github.labelSeverity"
+            },
+            "type": "boolean"
+          },
+          "state": {
+            "title": {
+              "$ref": "#/messages/github.labelState"
+            },
+            "type": "boolean"
+          },
+          "priority": {
+            "title": {
+              "$ref": "#/messages/github.labelPriority"
+            },
+            "type": "boolean"
+          },
+          "resolution": {
+            "title": {
+              "$ref": "#/messages/github.labelResolution"
+            },
+            "type": "boolean"
+          },
+          "filedAgainst": {
+            "title": {
+              "$ref": "#/messages/github.labelFiledAgainst"
+            },
+            "type": "boolean"
+          },
+          "tags": {
+            "title": {
+              "$ref": "#/messages/github.labelTags"
+            },
+            "type": "boolean"
+          }
         }
       }
     },
@@ -75,7 +149,9 @@
 	    "type": "selectfieldset",
 	    "key": "type",
 	    "titleMap": {
-		    "new": "New"
+		    "new": {
+          "$ref": "#/messages/github.new"
+        }
 	    },
 	    "items": [{
 		    "type": "section",
@@ -84,13 +160,19 @@
       },
       {
       	"type": "group",
-	"title": "Track & Plan Migration",
-	"description": "Details for setting up the migration of your Track & Plan Work Items.",
+	"title": {
+    "$ref": "#/messages/github.tAndPMigration"
+  },
+	"description": {
+    "$ref": "#/messages/github.tAndPMigrationDesc"
+  },
 	"items" : [
 		{
 		  "type": "label",
 		  "key": "desc",
-		  "title": "Your new toolchain uses Git Issues for issue tracking.\n\nTo keep your Track & Plan data, you must transfer it to Git Issues now. [Learn more](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#start_upgrade)."	
+		  "title": {
+        "$ref": "#/messages/github.tAndPLabelDesc"
+      }
 		},
 		{
 			"type": "selectfieldset",
@@ -106,8 +188,12 @@
 			       "items" : [{
              				"type": "label",
 				        "key" : "desc",
-             				"title": "By default, all of your work items are migrated. If you want to migrate only specific items, specify a [Track & Plan query]({{rtcSharedQueriesLink}}).",
-				        "description": "Work Items will be selected based on this query (from Shared Queries). If a query is not specified, all work items are selected."
+             				"title": {
+                       "$ref": "#/messages/github.migrateTAndPItem1Title"
+                     },
+				        "description": {
+                  "$ref": "#/messages/github.migrateTAndPItem1Desc"
+                }
       					},{
 					"type": "string",
 					"key": "query",
@@ -116,7 +202,9 @@
 					"labels"]
 			       }, {
 			       "type" : "label",
-			       "description" : "Track & Plan data will not be migrated."
+			       "description" : {
+               "$ref": "#/messages/github.migrateTAndPItem2Desc"
+             }
 			       }]
 		 }
 	     ]

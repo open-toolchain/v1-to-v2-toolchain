@@ -1,0 +1,64 @@
+---
+template.name: "Upgrade to Toolchain"
+template.description: |
+  A toolchain is an open, extensible system of tools that supports the development, deployment, and operations of an application.
+
+
+  #### About the Upgrade Process
+  When you create this toolchain, it is preconfigured with IBM hosted Git for source control, Delivery Pipeline for building and deployment, and the Eclipse Orion Web IDE for code editing. You can add more tools to the toolchain as needed. To get started, click **Create**.
+
+
+  #### More Info
+  [Tutorial: Upgrade your project to a toolchain](https://ibm.biz/ids-upgrade-blogpost)
+
+  [Docs: Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)
+
+  [Blog: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)
+template.gettingStarted: >-
+  This toolchain was created from your [DevOps Services
+  project]({{projectUrl}}). Migration of artifacts from the project to the tools in the toolchain continues 
+  for a while after the toolchain is created. Before you use the toolchain, verify the status of the upgrade 
+  by reviewing the banner on the [project page]({{projectUrl}}), then refer to [these steps](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps) 
+  for what to do next. To learn more about toolchains, see [Getting started with Continuous
+  Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).
+github.title: "New Git repository"
+github.description: "Git repository schema"
+github.longDescription: "Source code from your existing repository will be migrated to a new repository on IBM Hosted Git. You can engage in social coding through wikis, issue tracking, and pull requests."
+github.repositoryType: "Repository type"
+github.repositoryName: "New Repository name"
+github.newRepoDescription: "New Repository name"
+github.existingRepository: "Existing Git Repository"
+github.existingRepoDescription: "This is the repository from where the source code will be imported."
+github.privateRepository: "Private Repository"
+github.privateRepoDescription: "Select this check box to create a private repository."
+github.enableIssues: "Enable GitHub Enterprise Issues"
+github.enableIssuesDescription: "Enable GitHub Enterprise Issues page for lightweight issue tracking."
+github.trackDeployment: "Track deployment of code changes"
+github.trackDeployDescription: "Select this check box to track the deployment of code changes by creating tags, labels and comments on commits, pull requests and referenced issues. If you want to enable later, you can right-click on the Git repo card in the Toolchain page and click Configure."
+github.migrateTAndP: "Migrate Track & Plan work items to Git Issues"
+github.migrateTAndPDescription: "Track & Plan work items will be created as Git issues in your newly created repository. Choose 'Yes' if you want to migrate."
+github.trackAndPlanQuery: "Track & Plan query"
+github.labelsTitle: "Git issues use labels to track attributes. Select which work item attributes to map to labels in your new Git issues"
+github.labelType: "type"
+github.labelSeverity: "severity"
+github.labelState: "state"
+github.labelPriority: "priority"
+github.labelResolution: "resolution"
+github.labelFiledAgainst: "filedAgainst"
+github.labelTags: "tags"
+github.new: "New"
+github.tAndPMigration: "Track & Plan Migration"
+github.tAndPMigrationDesc: "Details for setting up the migration of your Track & Plan Work Items."
+github.tAndPLabelDesc: "Your new toolchain uses Git Issues for issue tracking.\n\nTo keep your Track & Plan data, you must transfer it to Git Issues now. [Learn more](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#start_upgrade)."
+github.migrateTAndPItem1Title: "By default, all of your work items are migrated. If you want to migrate only specific items, specify a [Track & Plan query]({{rtcSharedQueriesLink}})."
+github.migrateTAndPItem1Desc: "Work Items will be selected based on this query (from Shared Queries). If a query is not specified, all work items are selected."
+github.migrateTAndPItem2Desc: "Track & Plan data will not be migrated."
+headerSVG.issueTracker: "ISSUE TRACKER"
+headerSVG.think: "THINK"
+headerSVG.code: "CODE"
+headerSVG.deliver: "DELIVER"
+headerSVG.run: "RUN"
+headerSVG.repository: "REPOSITORY"
+headerSVG.pipeline: "PIPELINE"
+headerSVG.bluemix: "BLUEMIX"
+headerSVG.webIde: "WEB IDE"
