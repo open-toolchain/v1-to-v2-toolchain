@@ -1,51 +1,115 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "title": "Github link",
-    "description": "Github link schema",
-    "longDescription": "Store your source code in an existing Git repository on GitHub.com and engage in social coding through wikis, issue tracking, and pull requests.",
+    "messages": {
+      "$i18n": "locales.yml"
+    },
+    "title": {
+      "$ref": "#/messages/github.title"
+    },
+    "description": {
+      "$ref": "#/messages/github.description"
+    },
+    "longDescription": {
+      "$ref": "#/messages/github.longDescription"
+    },
     "type": "object",
     "properties": {
       "repo_url": {
           "type": "string",
-          "title": "Source repository URL"
+          "title": {
+            "$ref": "#/messages/github.sourceRepo"
+          }
       },
       "existing_repo_url": {
-          "type": "string",        
-          "title": "Source repository URL"
-      },    
+          "type": "string",
+          "title": {
+            "$ref": "#/messages/github.sourceRepo"
+          }
+      },
       "type": {
         "type": "string",
-        "title": "Repository type",
-        "default": "Existing"
+        "title": {
+          "$ref": "#/messages/github.repositoryType"
+        },
+        "default": {
+          "$ref": "#/messages/github.existing"
+        }
       },
       "has_issues": {
-		"title": "Enable GitHub Issues",
-		"description": "Enable GitHub's Issues page for lightweight issue tracking.",
+		"title": {
+      "$ref": "#/messages/github.enableIssues"
+    },
+		"description": {
+      "$ref": "#/messages/github.enableIssuesDesc"
+    },
 		"type": "boolean",
 		"default": true
       },
       "migrateTAndP": {
-      	            "title": "Migrate Track & Plan work items to GitHub Issues",
-	            "description": "Track & Plan work items will be created as GitHub issues in the existing repository. Choose 'Yes' if you want to migrate.",
+      	      "title": {
+                "$ref": "#/messages/github.migrateTAndP"
+              },
+              "description": {
+                "$ref": "#/messages/github.migrateTAndPDescription"
+              },
 	            "type": "boolean",
 	            "enum": ["Yes", "No"]
       },
       "query": {
              "type": "string",
-	     "title": "Track & Plan query",
+	     "title": {
+          "$ref": "#/messages/github.trackAndPlanQuery"
+        },
 	     "default": ""
       },
       "labels": {
         "type": "object",
-        "title": "GitHub issues use labels to track attributes. Select which work item attributes to map to labels in your new GitHub issues",
+        "title": {
+          "$ref": "#/messages/github.labelsTitle"
+        },
         "properties": {
-          "type": {"title": "type", "type": "boolean"},
-          "severity": {"title": "severity", "type": "boolean"},
-          "state": {"title": "state", "type": "boolean"},
-          "priority": {"title": "priority", "type": "boolean"},
-          "resolution": {"title": "resolution", "type": "boolean"},
-          "filedAgainst": {"title": "filedAgainst", "type": "boolean"},
-          "tags": {"title": "tags", "type": "boolean"}
+          "type": {
+            "title": {
+              "$ref": "#/messages/github.labelType"
+            },
+            "type": "boolean"
+          },
+          "severity": {
+            "title": {
+              "$ref": "#/messages/github.labelSeverity"
+            },
+            "type": "boolean"
+          },
+          "state": {
+            "title": {
+              "$ref": "#/messages/github.labelState"
+            },
+            "type": "boolean"
+          },
+          "priority": {
+            "title": {
+              "$ref": "#/messages/github.labelPriority"
+            },
+            "type": "boolean"
+          },
+          "resolution": {
+            "title": {
+              "$ref": "#/messages/github.labelResolution"
+            },
+            "type": "boolean"
+          },
+          "filedAgainst": {
+            "title": {
+              "$ref": "#/messages/github.labelFiledAgainst"
+            },
+            "type": "boolean"
+          },
+          "tags": {
+            "title": {
+              "$ref": "#/messages/github.labelTags"
+            },
+            "type": "boolean"
+          }
         }
       }
     },
@@ -59,19 +123,27 @@
         "key": "type",
         "readonly": true
       }, {
-      	"description": "The repository that your toolchain will link to.",
+      	"description": {
+          "$ref": "#/messages/github.existingRepoDesc"
+        },
       	"type": "string",
       	"key": "existing_repo_url",
       	"readonly": true
       },{
       	"type": "group",
-	"title": "Track & Plan Migration",
-	"description": "Details for setting up the migration of your Track & Plan Work Items.",
+	"title": {
+    "$ref": "#/messages/github.tAndPMigration"
+  },
+	"description": {
+    "$ref": "#/messages/github.tAndPMigrationDesc"
+  },
 	"items" : [
 		{
 		  "type": "label",
 		  "key": "desc",
-		  "title": "Your new toolchain uses GitHub Issues for issue tracking. \n\nTo keep your Track & Plan data, you must transfer it to GitHub Issues now. [Learn more](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#start_upgrade)."	
+		  "title": {
+        "$ref": "#/messages/github.tAndPLabelDesc"
+      }	
 		},
 		 {
 			"type": "selectfieldset",
@@ -87,8 +159,12 @@
 			       "items" : [{
              				"type": "label",
 				        "key" : "desc",
-             				"title": "By default, all of your work items are migrated. If you want to migrate only specific items, specify a [Track & Plan query]({{rtcSharedQueriesLink}}).",
-				        "description": "Work Items will be selected based on this Query (from Shared Queries). If Query is not specified, all work items are selected."
+             		"title": {
+                  "$ref": "#/messages/github.migrateTAndPItem1Title"
+                },
+      	        "description": {
+                  "$ref": "#/messages/github.migrateTAndPItem1Desc"
+                }
       					},{
 					"type": "string",
 					"key": "query",
@@ -97,7 +173,9 @@
 					"labels"]
 			       }, {
 			       "type" : "label",
-			       "description" : "Track & Plan data will not be migrated."
+			       "description" : {
+               "$ref": "#/messages/github.migrateTAndPItem2Desc"
+             }
 			       }]
 	      }
 	
