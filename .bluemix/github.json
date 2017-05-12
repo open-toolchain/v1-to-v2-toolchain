@@ -43,6 +43,11 @@
       "legal_label": {
           "type": "label",
           "title": "**Note:** All users with [access to this toolchain](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/toolchains_using.html#managing_access) will be able to access artifacts derived from this repository, such as build artifacts in the Delivery Pipeline."
+      },
+      "legal": {
+          "title": "I understand",
+          "type": "boolean",
+          "default": false
       }
     },
     "required": ["repo_name","type"],	
