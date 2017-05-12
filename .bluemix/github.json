@@ -39,6 +39,10 @@
 	      "title": "Track deployment of code changes",
 	      "description": "Select this check box to track the deployment of code changes by creating tags, labels and comments on commits, pull requests and referenced issues. If you want to enable later, you can right-click on the Git repo card in the Toolchain page and click Configure.",
 	      "default": false
+      },
+      "legal_label": {
+          "type": "label",
+          "title": "**Note:** All users with [access to this toolchain](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/toolchains_using.html#managing_access) will be able to access artifacts derived from this repository, such as build artifacts in the Delivery Pipeline."
       }
     },
     "required": ["repo_name","type"],	
