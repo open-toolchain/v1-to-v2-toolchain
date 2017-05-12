@@ -5,11 +5,6 @@
     "longDescription": "Source code from your existing repository will be migrated to a new repository on GitHub Enterprise. You can engage in social coding through wikis, issue tracking, and pull requests.",
     "type": "object",
     "properties": {
-      "legal": {
-	    "title": "I understand",
-	    "type": "boolean",
-	    "default": false
-      },
       "repo_name": {
           "title":"New repository name",
 	  "description": "New repository name",
