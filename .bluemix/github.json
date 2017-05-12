@@ -2,8 +2,7 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "Github Enterprise link",
     "description": "Github Enterprise link schema",
-    "longDescription": "Source code from your existing repository will be migrated to a new repository on GitHub Enterprise. You can engage in social coding through wikis, issue tracking, and pull requests.",
-    "type": "object",
+    "longDescription": "Whitewater GitHub Enterprise makes social coding possible for teams at IBM.\n\n**Note:** You must read and agree to the [terms of use](https://whitewater.ibm.com/tools/github?tab=details) before adding this tool integration.",    "type": "object",
     "properties": {
       "repo_name": {
           "title":"New repository name",
@@ -78,6 +77,6 @@
       }    
     ],
     "actions": {
-      "create": ["has_issues","repo_name","type"]
+      "create": ["has_issues","repo_name","type","legal"]
     }	
 }
