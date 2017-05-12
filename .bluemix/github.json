@@ -5,6 +5,15 @@
     "longDescription": "Source code from your existing repository will be migrated to a new repository on GitHub Enterprise. You can engage in social coding through wikis, issue tracking, and pull requests.",
     "type": "object",
     "properties": {
+      "legal_label": {
+	    "type": "label",
+	    "title": "**Note:** All users with [access to this toolchain](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/toolchains_using.html#managing_access) will be able to access artifacts derived from this repository, such as build artifacts in the Delivery Pipeline."
+      },
+      "legal": {
+	    "title": "I understand",
+	    "type": "boolean",
+	    "default": false
+      },
       "repo_name": {
           "title":"New repository name",
 	  "description": "New repository name",
@@ -41,7 +50,7 @@
 	      "default": false
       }
     },
-    "required": ["repo_name","type"],	
+    "required": ["legal", "repo_name","type"],	
     "form": [
       {
         "type": "validator",
