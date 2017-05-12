@@ -50,7 +50,7 @@
 	      "default": false
       }
     },
-    "required": ["legal","repo_name","type"],	
+    "required": ["repo_name","type"],	
     "form": [
       {
         "type": "validator",
