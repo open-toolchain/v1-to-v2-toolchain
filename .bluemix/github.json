@@ -3,6 +3,7 @@
     "title": "Github Enterprise link",
     "description": "Github Enterprise link schema",
     "longDescription": "Whitewater GitHub Enterprise makes social coding possible for teams at IBM.\n\n**Note:** You must read and agree to the [terms of use](https://whitewater.ibm.com/tools/github?tab=details) before adding this tool integration.",    "type": "object",
+    "type": "object",
     "properties": {
       "repo_name": {
           "title":"New repository name",
