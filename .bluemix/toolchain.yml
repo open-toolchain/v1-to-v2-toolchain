@@ -46,7 +46,7 @@ services:
       has_issues: true
       private_repo: '{{form.github_integrated.parameters.private_repo}}'
       enable_traceability: '{{form.github_integrated.parameters.enable_traceability}}'
-      legal: false
+      legal: '{{form.github_integrated.parameters.legal}}'
   build:
     service_id: pipeline
     parameters:
