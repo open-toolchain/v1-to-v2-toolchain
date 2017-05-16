@@ -42,6 +42,7 @@ services:
       type: link
       has_issues: true
       enable_traceability: '{{form.github_integrated.parameters.enable_traceability}}'
+      legal: '{{form.github_integrated.parameters.legal}}'
       track_and_plan:
         query: '{{form.github_integrated.parameters.query}}'
         labels: '{{form.github_integrated.parameters.labels}}'
@@ -72,6 +73,7 @@ form:
       repo_url: '{{projectRepoUrl}}'
       existing_repo_url: '{{projectRepoUrl}}'
       enable_traceability: false
+      legal: false
       migrateTAndP: '{{migrateTAndP}}'
       query: ""
       labels:
