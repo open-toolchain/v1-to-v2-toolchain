@@ -44,8 +44,7 @@
       }, {
  	"type": "boolean",
  	"key": "legal"
-      }
-      {
+      }, {
         "type": "string",
         "key": "type",
         "readonly": "true"
