@@ -2,7 +2,7 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "Github Enterprise link",
     "description": "Github Enterprise link schema",
-    "longDescription": "Whitewater GitHub Enterprise makes social coding possible for teams at IBM.\n\n**Note:** You must read and agree to the [terms of use](https://whitewater.ibm.com/tools/github?tab=details) before adding this tool integration.",
+    "longDescription": "Whitewater GitHub Enterprise makes social coding possible for teams at IBM.\n\n**Note:** You must read and agree to the [terms of use](https://whitewater.ibm.com/tools/github?tab=details) before adding this tool integration. All users with [access to this toolchain](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/toolchains_using.html#managing_access) will be able to access artifacts derived from this repository, such as build artifacts in the Delivery Pipeline.",
     "type": "object",
     "properties": {
       "repo_name": {
@@ -40,10 +40,6 @@
 	      "description": "Select this check box to track the deployment of code changes by creating tags, labels and comments on commits, pull requests and referenced issues. If you want to enable later, you can right-click on the Git repo card in the Toolchain page and click Configure.",
 	      "default": false
       },
-      "legal_label": {
-          "type": "label",
-          "title": "**Note:** All users with [access to this toolchain](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/toolchains_using.html#managing_access) will be able to access artifacts derived from this repository, such as build artifacts in the Delivery Pipeline."
-      },
       "legal": {
           "title": "I understand",
           "type": "boolean",
@@ -55,8 +51,10 @@
       {
         "type": "validator",
         "url": "/devops/setup/bm-helper/github_helper.html"
-      }, 
-      {
+      }, {
+	"type": "boolean",
+	"key": "legal"
+      }, {
 	 "type": "selectfieldset",
 	 "key": "type",
 	 "titleMap": {
@@ -69,13 +67,7 @@
       }, {
 	"type": "boolean",       
 	"key": "enable_traceability"       
-      }, {
-	"type": "label",
-	"key": "legal_label"
-      }, {
-	"type": "boolean",
-	"key": "legal"
-      }    
+      }  
     ],
     "actions": {
       "create": ["has_issues","repo_name","type","legal"]
