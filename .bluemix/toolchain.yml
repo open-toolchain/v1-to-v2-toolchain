@@ -5,6 +5,9 @@ template:
      A toolchain is an open, extensible system of tools that supports the development, deployment, and operations of an application.
 
 
+    #### Approved for IBM Confidential material
+     Continuous Delivery toolchains are approved for **IBM Confidential** material when used with [Whitewater GitHub Enterprise](https://whitewater.ibm.com/tools/github).
+ 
     #### About the Upgrade Process
      When you create this toolchain, it is preconfigured with IBM Whitewater GitHub Enterprise for source control, Delivery Pipeline for building and deployment, and the Eclipse Orion Web IDE for code editing. You can add more tools to the toolchain as needed. To get started, click **Create**.
 
