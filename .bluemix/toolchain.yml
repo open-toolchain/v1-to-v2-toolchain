@@ -26,6 +26,7 @@ services:
       repo_url: '{{projectRepoUrl}}'
       type: link
       has_issues: true
+      enable_traceability: true
   build:
     service_id: pipeline
     parameters:
