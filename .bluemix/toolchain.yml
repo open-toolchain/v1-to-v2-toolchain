@@ -44,7 +44,7 @@ services:
       repo_url: ''
       type: new
       has_issues: true
-      private_repo: '{{form.github_integrated.parameters.private_repo}}'
+      private_repo: true
       enable_traceability: '{{form.github_integrated.parameters.enable_traceability}}'
       legal: '{{form.github_integrated.parameters.legal}}'
   build:
