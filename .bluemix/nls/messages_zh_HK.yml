@@ -1,0 +1,33 @@
+---
+template.name: "升級為工具鏈"
+template.description: 工具鏈是一種開放、可延伸的工具系統，其支援應用程式的開發、部署及作業。
+
+
+  #### About the Upgrade Process
+  When you create this toolchain, it is preconfigured with GitHub for source control, Delivery Pipeline for building and deployment, and the Eclipse Orion Web IDE for code editing. You can add more tools to the toolchain as needed. To get started, click **Create**.
+
+
+  #### More Info
+  [Tutorial: 將您的專案升級為工具鏈](https://ibm.biz/ids-upgrade-blogpost)
+
+  [Docs: 開始使用 Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)
+
+  [Blog: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)
+template.gettingStarted: - **快速入門：** 此工具鏈已從您的 [DevOps Services 專案]({{projectUrl}}) 中建立。使用工具鏈之前，請先透過完成 [這些步驟](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps)，以驗證升級的狀態。如需進一步瞭解工具鏈，請參閱 [開始使用 Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2)。
+github.description: "Github 鏈結綱目"
+github.longDescription: "在 GitHub.com 上將您的原始碼儲存在現有的儲存庫中，以及透過 Wiki、問題追蹤及拉取要求來參與社交編碼的文化。"
+github.sourceRepository: "來源儲存庫 URL"
+github.repositoryType: "儲存庫類型"
+github.existing: "現有的"
+github.repoType.description: "工具鏈將鏈結到其中的儲存庫。"
+headerSVG.issueTracker: "問題追蹤器"
+headerSVG.gitHub1: "GitHub"
+headerSVG.think: "思考"
+headerSVG.code: "程式碼"
+headerSVG.deliver: "交付"
+headerSVG.run: "執行"
+headerSVG.repository: "儲存庫"
+headerSVG.gitHub2: "GitHub"
+headerSVG.pipeline: "管線"
+headerSVG.bluemix: "BLUEMIX"
+headerSVG.webIde: "WEB IDE"

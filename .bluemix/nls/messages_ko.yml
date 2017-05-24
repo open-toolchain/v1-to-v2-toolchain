@@ -1,0 +1,33 @@
+---
+template.name: "도구 체인으로 업그레이드"
+template.description: 도구 체인은 애플리케이션의 개발, 배치, 운영을 지원하는 확장 가능한 개방형 도구 시스템입니다.
+
+
+  #### About the Upgrade Process
+  When you create this toolchain, it is preconfigured with GitHub for source control, Delivery Pipeline for building and deployment, and the Eclipse Orion Web IDE for code editing. You can add more tools to the toolchain as needed. To get started, click **Create**.
+
+
+  #### More Info
+  [Tutorial: 프로젝트를 도구 체인으로 업그레이드](https://ibm.biz/ids-upgrade-blogpost)
+
+  [Docs: Continuous Delivery 시작하기](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)
+
+  [Blog: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)
+template.gettingStarted: - **빠른 시작:** 이 도구 체인은 사용자의 [DevOps Services 프로젝트]({{projectUrl}})에서 작성되었습니다. 도구 체인을 사용하기 전에, [이 단계](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps)를 완료하여 업그레이드의 상태를 확인하십시오. 도구 체인에 대해 자세히 알아보려면 [Continuous Delivery 시작하기](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2)를 참조하십시오.
+github.description: "Github 링크 스키마"
+github.longDescription: "GitHub.com의 기존 저장소에 소스 코드를 저장하고 위키, 문제 추적, 가져오기 요청을 통해 소셜 코딩을 활용합니다."
+github.sourceRepository: "소스 저장소 URL"
+github.repositoryType: "저장소 유형"
+github.existing: "기존"
+github.repoType.description: "도구 체인을 링크할 저장소입니다."
+headerSVG.issueTracker: "문제 트래커"
+headerSVG.gitHub1: "GitHub"
+headerSVG.think: "사고"
+headerSVG.code: "코드"
+headerSVG.deliver: "전달"
+headerSVG.run: "실행"
+headerSVG.repository: "저장소"
+headerSVG.gitHub2: "GitHub"
+headerSVG.pipeline: "PIPELINE"
+headerSVG.bluemix: "BLUEMIX"
+headerSVG.webIde: "WEB IDE"

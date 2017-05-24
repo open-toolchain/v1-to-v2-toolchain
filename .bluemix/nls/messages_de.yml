@@ -1,0 +1,33 @@
+---
+template.name: "Auf Toolchain aufrüsten"
+template.description: Eine Toolchain ist ein offenes, erweiterbares System aus Tools, das die Entwicklung, Bereitstellung und den Betrieb einer Anwendung unterstützt.
+
+
+  #### About the Upgrade Process
+  When you create this toolchain, it is preconfigured with GitHub for source control, Delivery Pipeline for building and deployment, and the Eclipse Orion Web IDE for code editing. You can add more tools to the toolchain as needed. To get started, click **Create**.
+
+
+  #### More Info
+  [Tutorial: Upgrade your DevOps Services project to a toolchain](https://ibm.biz/ids-upgrade-blogpost)
+
+  [Docs: Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)
+
+  [Blog: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)
+template.gettingStarted: - **Schnelleinstieg:** Diese Toolchain wurde aus Ihrem [DevOps Services-Projekt]({{projectUrl}}) erstellt. Überprüfen Sie vor der Verwendung der Toolchain den Status Ihres Upgrades, indem Sie [diese Schritte](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps) ausführen. Weitere Informationen zu Toolchains finden Sie in der [Einführung in Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).
+github.description: "GitHub-Linkschema"
+github.longDescription: "Speichern Sie Ihren Quellcode in einem bereits vorhandenen Repository unter GitHub.com und nehmen Sie über Wikis, Problemverfolgung und Pull-Anforderungen am Social Coding teil."
+github.sourceRepository: "URL des Quellenrepositorys"
+github.repositoryType: "Repository-Typ"
+github.existing: "Vorhandenes"
+github.repoType.description: "Das Repository, auf das Ihre Toolchain verweist."
+headerSVG.issueTracker: "PROBLEMTRACKER"
+headerSVG.gitHub1: "GitHub"
+headerSVG.think: "NACHDENKEN"
+headerSVG.code: "CODIEREN"
+headerSVG.deliver: "BEREITSTELLEN"
+headerSVG.run: "AUSFÜHREN"
+headerSVG.repository: "REPOSITORY"
+headerSVG.gitHub2: "GitHub"
+headerSVG.pipeline: "PIPELINE"
+headerSVG.bluemix: "BLUEMIX"
+headerSVG.webIde: "WEB-IDE"

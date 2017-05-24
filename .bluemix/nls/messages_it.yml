@@ -1,0 +1,33 @@
+---
+template.name: "Aggiornamento alla toolchain"
+template.description: Una toolchain rappresenta un sistema aperto, estendibile di strumenti che supporta lo sviluppo, la distribuzione e le operazioni di un'applicazione.
+
+
+  #### About the Upgrade Process
+  When you create this toolchain, it is preconfigured with GitHub for source control, Delivery Pipeline for building and deployment, and the Eclipse Orion Web IDE for code editing. You can add more tools to the toolchain as needed. To get started, click **Create**.
+
+
+  #### More Info
+  [Tutorial: Aggiornare il progetto ad una toolchain](https://ibm.biz/ids-upgrade-blogpost)
+
+  [Docs: Introduzione a Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)
+
+  [Blog: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)
+template.gettingStarted: - **Avvio rapido:** Questa toolchain è stata creata da [DevOps Services project]({{projectUrl}}). Prima di utilizzare la toolchain, verificare lo stato di aggiornamento completando [questi passi](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps). Per ulteriori informazioni relative alle toolchain, consultare [Introduzione a Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).
+github.description: "Schema di collegamento Github"
+github.longDescription: "Memorizzare il codice sorgente in un repository esistente in GitHub.com e partecipare al social coding attraverso wiki, traccia dei problemi e richieste di pull."
+github.sourceRepository: "URL repository di origine"
+github.repositoryType: "Tipo di repository"
+github.existing: "Esistente"
+github.repoType.description: "Il repository a cui sarà collegata la toolchain."
+headerSVG.issueTracker: "ISSUE TRACKER"
+headerSVG.gitHub1: "GitHub"
+headerSVG.think: "PENSA"
+headerSVG.code: "CODICE"
+headerSVG.deliver: "DISTRIBUISCI"
+headerSVG.run: "ESEGUI"
+headerSVG.repository: "REPOSITORY"
+headerSVG.gitHub2: "GitHub"
+headerSVG.pipeline: "PIPELINE"
+headerSVG.bluemix: "BLUEMIX"
+headerSVG.webIde: "IDE WEB"

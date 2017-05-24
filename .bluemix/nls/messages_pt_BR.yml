@@ -1,0 +1,33 @@
+---
+template.name: "Fazer upgrade para a cadeia de ferramentas"
+template.description: Uma cadeia de ferramentas é um sistema aberto e extensível de ferramentas que suporta o desenvolvimento, a implementação e as operações de um aplicativo.
+
+
+  #### About the Upgrade Process
+  When you create this toolchain, it is preconfigured with GitHub for source control, Delivery Pipeline for building and deployment, and the Eclipse Orion Web IDE for code editing. You can add more tools to the toolchain as needed. To get started, click **Create**.
+
+
+  #### More Info
+  [Tutorial: Faça upgrade do seu projeto para uma cadeia de ferramentas](https://ibm.biz/ids-upgrade-blogpost)
+
+  [Docs: Introdução ao Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)
+
+  [Blog: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)
+template.gettingStarted: - **Iniciação rápida:** essa cadeia de ferramentas foi criada em seu [projeto DevOps Services]({{projectUrl}}). Antes de usar a cadeia de ferramentas, verifique o status de seu upgrade concluindo [essas etapas] (https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps). Para saber mais sobre as cadeias de ferramentas, veja [Introdução ao Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).
+github.description: "Esquema do link do Github"
+github.longDescription: "Armazene seu código-fonte em um repositório existente no GitHub.com e envolva-se na codificação social por meio de wikis, rastreamento de problemas e solicitações pull."
+github.sourceRepository: "URL do repositório de origem"
+github.repositoryType: "Tipo de Repositório"
+github.existing: "Existente"
+github.repoType.description: "O repositório ao qual sua cadeia de ferramentas será vinculada."
+headerSVG.issueTracker: "RASTREADOR DE PROBLEMA"
+headerSVG.gitHub1: "GitHub"
+headerSVG.think: "THINK"
+headerSVG.code: "ERRO"
+headerSVG.deliver: "DELIVER"
+headerSVG.run: "EXECUTAR"
+headerSVG.repository: "REPOSITORY"
+headerSVG.gitHub2: "GitHub"
+headerSVG.pipeline: "OLEODUTO"
+headerSVG.bluemix: "BLUEMIX"
+headerSVG.webIde: "WEB IDE"
