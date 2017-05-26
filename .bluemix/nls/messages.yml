@@ -1,4 +1,5 @@
 ---
+# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
 template.name: "Upgrade to Toolchain"
 template.description: |
   A toolchain is an open, extensible system of tools that supports the development, deployment, and operations of an application.
