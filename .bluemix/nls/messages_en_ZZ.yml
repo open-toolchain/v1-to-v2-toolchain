@@ -1,8 +1,8 @@
 ---
 # Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
 template.name: "[G'Ｕｐｇｒａｄｅ to Toolchainฏูİı｜]"
-template.description: [G'|
-  Ａ ｔｏｏｌｃｈａｉｎ ｉｓ ａｎ ｏｐｅｎ, ｅｘｔｅｎｓｉｂｌｅ ｓｙstem of tools that supports the development, deployment, and operations of an application.ฏูİı｜]
+template.description: |
+  [G'Ａ ｔｏｏｌｃｈａｉｎ ｉｓ ａｎ ｏｐｅｎ, ｅｘｔｅｎｓｉｂｌｅ ｓｙstem of tools that supports the development, deployment, and operations of an application.ฏูİı｜]
 
   #### About the Upgrade Process
   When you create this toolchain, it is preconfigured with IBM hosted Git for source control, Delivery Pipeline for building and deployment, and the Eclipse Orion Web IDE for code editing. You can add more tools to the toolchain as needed. To get started, click **Create**.
@@ -12,8 +12,8 @@ template.description: [G'|
   [Tutorial: [G'Ｕｐｇｒａｄｅ ｙｏｕｒ ｐｒoject to a toolchain](https://ibm.biz/ids-upgrade-blogpost)ฏูİı｜]
   [Docs: [G'Ｇｅｔｔｉｎｇ ｓｔａｒｔｅｄ ｗｉｔｈ Ｃｏｎｔｉｎｕｏus Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)ฏูİı｜]
   [Blog: [G'Ｂｌｕｅｍｉｘ Ｃｏｎｔｉｎｕｏｕｓ Ｄｅｌｉｖｅｒy](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)ฏูİı｜]
-template.gettingStarted: [G'>-ฏูİı｜]
-  This toolchain was created from your [DevOps Services project]({{projectUrl}}). Migration of artifacts from the project to the tools in the toolchain continues for a while after the toolchain is created. Before you use the toolchain, verify the status of the upgrade by reviewing the banner on the [project page]({{projectUrl}}), then refer to [these steps](https:[G'//ｃｏｎｓｏｌｅ.ｎｇ.ｂｌｕｅｍｉｘ.ｎｅｔ/ｄｏｃｓ/ｓｅｒｖｉｃｅｓ/ＣｏｎｔｉｎｕｏｕｓＤｅｌｉｖｅｒｙ/ｕｐｇｒａｄｅ_ｐｒｏｊｅｃｔｓ.ｈｔｍｌ#ｕｐｇｒａｄｅ_next_steps) for what to do next. To learn more about toolchains, see [Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).ฏูİı｜]
+template.gettingStarted: >-
+  [G'This toolchain was created from your [DevOps Services project]({{projectUrl}}). Migration of artifacts from the project to the tools in the toolchain continues for a while after the toolchain is created. Before you use the toolchain, verify the status of the upgrade by reviewing the banner on the [project page]({{projectUrl}}), then refer to [these steps](https:[G'//ｃｏｎｓｏｌｅ.ｎｇ.ｂｌｕｅｍｉｘ.ｎｅｔ/ｄｏｃｓ/ｓｅｒｖｉｃｅｓ/ＣｏｎｔｉｎｕｏｕｓＤｅｌｉｖｅｒｙ/ｕｐｇｒａｄｅ_ｐｒｏｊｅｃｔｓ.ｈｔｍｌ#ｕｐｇｒａｄｅ_next_steps) for what to do next. To learn more about toolchains, see [Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).ฏูİı｜]
 github.title: "[G'Ｎｅｗ Ｇｉｔ repositoryฏูİı｜]"
 github.description: "[G'Ｇｉｔ ｒｅｐｏsitory schemaฏูİı｜]"
 github.longDescription: "[G'Ｓｏｕｒｃｅ ｃｏｄｅ ｆｒｏｍ ｙｏｕｒ ｅｘｉｓｔｉｎｇ ｒｅｐｏｓｉｔｏｒｙ ｗｉｌｌ ｂｅ ｍｉgrated to a new repository on IBM Hosted Git. You can engage in social coding through wikis, issue tracking, and pull requests.ฏูİı｜]"
