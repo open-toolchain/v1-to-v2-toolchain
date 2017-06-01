@@ -1,0 +1,47 @@
+---
+template.name: "Auf Toolchain aufrüsten"
+template.description: |
+  Eine Toolchain ist ein offenes, erweiterbares System aus Tools, das die Entwicklung, Bereitstellung und den Betrieb einer Anwendung unterstützt.
+
+
+  #### Informationen zum Upgradeprozess
+  Wenn Sie diese Toolchain erstellen, wird sie mit GitHub für die Quellcodeverwaltung, Delivery Pipeline für die Erstellung und Bereitstellung und der Web-IDE für Eclipse Orion für die Codebearbeitung vorkonfiguriert. Bei Bedarf können Sie der Toolchain weitere Tools hinzufügen. Klicken Sie auf **Erstellen**, um zu beginnen.
+
+
+  #### Weitere Informationen
+  [Lernprogramm: DevOps Services-Projekt auf Verwendung einer Toolchain aktualisieren](https://ibm.biz/ids-upgrade-blogpost)
+
+  [Dokumente: Einführung in Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)
+
+  [Blog: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)
+template.gettingStarted: >-
+  Diese Toolchain wurde aus Ihrem [DevOps Services-Projekt]({{projectUrl}}) erstellt. Die Migration von Artefakten aus dem
+  Projekt in die Tools in der Toolchain wird nach der Erstellung der Toolchain noch eine Zeit lang fortgesetzt. Überprüfen
+  Sie vor der Verwendung der Toolchain anhand des Banners auf der [Projektseite]({{projectUrl}}) den Status des Upgrades
+  und befolgen Sie dann [diese Schritte](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps).
+  Weitere Informationen zu Toolchains finden Sie in der
+  [Einführung in Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).
+github.title: "Neues Git-Repository"
+github.description: "Git-Repositoryschema"
+github.longDescription: "Quellcode aus dem bereits vorhandenen Repository wird in ein neues Repository unter IBM Hosted Git migriert. Sie können über Wikis, Problemverfolgung und Pull-Anforderungen am Social Coding teilnehmen."
+github.repositoryType: "Repository-Typ"
+github.repositoryName: "Neuer Repository-Name"
+github.newRepoDescription: "Neuer Repository-Name"
+github.existingRepository: "Vorhandenes Git-Repository"
+github.existingRepoDescription: "Dies ist das Repository, aus dem der Quellcode importiert wird."
+github.privateRepository: "Privates Repository"
+github.privateRepoDescription: "Aktivieren Sie dieses Kontrollkästchen, um ein privates Repository zu erstellen."
+github.enableIssues: "GitHub Enterprise Issues aktivieren"
+github.enableIssuesDescription: "Aktivieren Sie die Seite mit GitHub Enterprise Issues für die einfache Problemverfolgung."
+github.trackDeployment: "Bereitstellung von Codeänderungen verfolgen"
+github.trackDeployDescription: "Aktivieren Sie dieses Kontrollkästchen, um die Bereitstellung von Codeänderungen zu verfolgen. Die Verfolgung erfolgt durch die Erstellung von Tags, Bezeichnungen, und Kommentaren zu Festschreibungen, Pull-Anforderungen und zugehörigen Problemen. Wenn Sie die Aktivierung später vornehmen möchten, können Sie mit der rechten Maustaste auf das Feld für das Git-Repository auf der Toolchainseite und dann auf 'Konfigurieren' klicken."
+github.new: "Neu"
+headerSVG.issueTracker: "PROBLEMTRACKER"
+headerSVG.think: "NACHDENKEN"
+headerSVG.code: "CODIEREN"
+headerSVG.deliver: "BEREITSTELLEN"
+headerSVG.run: "AUSFÜHREN"
+headerSVG.repository: "REPOSITORY"
+headerSVG.pipeline: "PIPELINE"
+headerSVG.bluemix: "BLUEMIX"
+headerSVG.webIde: "WEB-IDE"
