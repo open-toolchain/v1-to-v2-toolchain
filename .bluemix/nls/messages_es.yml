@@ -1,0 +1,56 @@
+---
+# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
+template.name: "Actualización a una cadena de herramientas"
+template.description: |
+  Una cadena de herramientas es un sistema ampliable y abierto de herramientas que dan soporte al desarrollo, el despliegue y las operaciones relacionadas con una aplicación. 
+
+
+  #### Acerca del proceso de actualización
+  Cuando crea esta cadena de herramientas, se configura con GitHub como control de código fuente, Delivery Pipeline para compilar y desplegar y el IDE web de Eclipse Orion para editar el código. Añada más herramientas a la cadena según lo necesite. Para empezar, pulse **Crear**.
+  
+
+  #### Información adicional
+  [Guía de aprendizaje: Actualización de su proyecto a una cadena de herramientas](https://ibm.biz/ids-upgrade-blogpost)
+
+  [Documentos: Iniciación al Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)
+
+  [Blog: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)
+template.gettingStarted: >-
+  Esta cadena de herramientas se creó desde su [proyecto de DevOps Services]({{projectUrl}}). La migración de artefactos desde el proyecto a las herramientas en la cadena de herramientas continúa por un tiempo después de que se haya creado dicha cadena de herramientas. Antes de poder utilizar la cadena de herramientas, verifique el estado de la actualización revisando la cabecera de la [página del proyecto]({{projectUrl}}) y, a continuación, consulte [estos pasos](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps) para saber qué hacer a continuación. Para obtener más información sobre las cadenas de herramientas, consulte [Iniciación al Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).
+github.title: "Enlace de Github "
+github.description: "Esquema de enlace de Github "
+github.longDescription: "Almacene el código fuente en un repositorio Git existente en GitHub.com y participe en la codificación social a través de wikis, rastreo de problemas y solicitudes de extracción."
+github.sourceRepo: "URL de repositorio de origen"
+github.repositoryType: "Tipo de repositorio"
+github.existing: "Existente"
+github.enableIssues: "Habilitar GitHub Issues"
+github.enableIssuesDesc: "Habilite la página de GitHub Issues para un seguimiento de problemas ligeros."
+github.existingRepoDesc: "Repositorio al que se enlazará su cadena de herramientas. "
+github.trackDeployment: "Realizar un seguimiento del despliegue de cambios de código"
+github.trackDeployDescription: "Seleccione este recuadro de selección para realizar un seguimiento del despliegue de cambios de código creando códigos, etiquetas y comentarios en sus confirmaciones, solicitudes de extracción y problemas que haya referenciado. Si lo desea habilitar más tarde, pulse con el botón derecho del ratón sobre la tarjeta del repositorio Git en la página de la cadena de herramientas y pulse Configurar. "
+github.migrateTAndP: "Migrar elementos de Track & Plan a Git Issues"
+github.migrateTAndPDescription: "Los elementos de Track & Plan se crearán como elementos de GIT en su repositorio recién creado. Elija 'Sí' si desea realizar la migración. "
+github.trackAndPlanQuery: "Consulta de Track & Plan"
+github.labelsTitle: "Los problemas de Git utilizan etiquetas como atributos de seguimiento. Seleccione qué atributos de elementos de trabajo correlacionará con etiquetas en sus nuevos problemas de Git"
+github.labelType: "type"
+github.labelSeverity: "severity"
+github.labelState: "state"
+github.labelPriority: "priority"
+github.labelResolution: "resolution"
+github.labelFiledAgainst: "filedAgainst"
+github.labelTags: "tags"
+github.tAndPMigration: "Migración de Track & Plan"
+github.tAndPMigrationDesc: "Detalles para configurar la migración de sus elementos de trabajo de Track & Plan. "
+github.tAndPLabelDesc: "Su nueva cadena de herramientas utiliza Git Issues para el seguimiento de problemas. \n\nSi desea mantener sus datos de Track & Plan, debe transferirlos a Git Issues ahora. [Aprenda más sobre](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#start_upgrade)."
+github.migrateTAndPItem1Title: "De forma predeterminada, se migran todos los elementos de trabajo. Si únicamente desea migrar elementos específicos, especifique una [consulta de Track & Plan]({{rtcSharedQueriesLink}})."
+github.migrateTAndPItem1Desc: "Los elementos de trabajo se seleccionarán en base a esta consulta (de las consultas compartidas). Si no se especifica una consulta, se seleccionarán todos los elementos de trabajo. "
+github.migrateTAndPItem2Desc: "No se migrarán los datos de Track & Plan. "
+headerSVG.issueTracker: "SEGUIMIENTO DE PROBLEMAS"
+headerSVG.think: "CONSIDERAR"
+headerSVG.code: "CÓDIGO"
+headerSVG.deliver: "ENTREGAR"
+headerSVG.run: "EJECUTAR"
+headerSVG.repository: "REPOSITORIO"
+headerSVG.pipeline: "PIPELINE"
+headerSVG.bluemix: "BLUEMIX"
+headerSVG.webIde: "IDE WEB"
