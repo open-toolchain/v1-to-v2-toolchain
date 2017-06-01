@@ -1,0 +1,56 @@
+﻿---
+# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
+template.name: "Fazer upgrade para a cadeia de ferramentas"
+template.description: |
+  Uma cadeia de ferramentas é um sistema aberto e extensível de ferramentas que suporta o desenvolvimento, a implementação e as operações de um aplicativo.
+
+
+  #### About the Upgrade Process
+  Ao criar essa cadeia de ferramentas, ela será pré-configurada com o GitHub para controle de fonte, o Delivery Pipeline para construção e implementação e o Eclipse Orion Web IDE para edição de código. É possível incluir mais ferramentas à cadeia de ferramentas, conforme necessário. Para introdução, click em **Criar**.
+
+
+  #### More Info
+  [Tutorial: Faça upgrade do seu projeto para uma cadeia de ferramentas](https://ibm.biz/ids-upgrade-blogpost)
+
+  [Docs: Introdução ao Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)
+
+  [Blog: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)
+template.gettingStarted: >- 
+  Essa cadeia de ferramentas foi criada em seu [projeto DevOps Services]({{projectUrl}}). A migração de artefatos do projeto para as ferramentas na cadeia de ferramentas continua por um tempo após a cadeia de ferramentas ser criada. Antes de usar a cadeia de ferramentas, verifique o status do upgrade revisando o banner na [página do projeto]({{projectUrl}}), então, consulte [essas etapas](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps) para saber o que fazer a seguir. Para saber mais sobre as cadeias de ferramentas, veja [Introdução ao Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).
+github.title: "Link do Github"
+github.description: "Esquema do link do Github"
+github.longDescription: "Armazene seu código-fonte em um repositório Git existente no GitHub.com e envolva-se na codificação social por meio de wikis, rastreamento de problemas e solicitações pull."
+github.sourceRepo: "URL do repositório de origem"
+github.repositoryType: "Tipo de Repositório"
+github.existing: "Existente"
+github.enableIssues: "Ativar GitHub Issues"
+github.enableIssuesDesc: "Ative a página Issues do GitHub para rastreamento de problemas leves."
+github.existingRepoDesc: "O repositório ao qual sua cadeia de ferramentas será vinculada."
+github.trackDeployment: "Rastrear implementação de mudanças de código"
+github.trackDeployDescription: "Selecione esta caixa de seleção para rastrear a implementação de mudanças de código criando tags, rótulos e comentários sobre confirmações, solicitações pull e problemas referenciados. Se você desejar ativar mais tarde, poderá clicar com o botão direito no cartão do repositório Git na página Cadeia de ferramentas e clicar em Configurar."
+github.migrateTAndP: "Migrar itens de trabalho do Track & Plan para o Issues do Git"
+github.migrateTAndPDescription: "Itens de trabalho do Track & Plan serão criados como problemas do Git em seu repositório recém-criado. Escolha 'Sim' se desejar migrar."
+github.trackAndPlanQuery: "Consulta do Track & Plan"
+github.labelsTitle: "O Issues do Git usa rótulos para controlar atributos. Selecione quais atributos de item de trabalho mapear para rótulos em seu novo Issues do Git"
+github.labelType: "da mensagem"
+github.labelSeverity: "Gravidade"
+github.labelState: "estado"
+github.labelPriority: "Prioridade"
+github.labelResolution: "resolução"
+github.labelFiledAgainst: "filedAgainst"
+github.labelTags: "tags"
+github.tAndPMigration: "Migração do Track & Plan"
+github.tAndPMigrationDesc: "Detalhes para configurar a migração de seus itens de trabalho do Track & Plan."
+github.tAndPLabelDesc: "Sua nova cadeia de ferramentas usa o Issues do Git para rastreamento de problemas.\n\nPara manter seus dados do Track & Plan, deve-se transferi-los para o Issues do Git agora. [Saiba mais](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#start_upgrade)."
+github.migrateTAndPItem1Title: "Por padrão, todos os seus itens de trabalho são migrados. Se você desejar migrar somente itens particulares, especifique uma [consulta do Track & Plan] ({{rtcSharedQueriesLink}})."
+github.migrateTAndPItem1Desc: "Os itens de trabalho serão selecionados com base nessa consulta (nas Consultas compartilhadas). Se uma consulta não for especificada, todos os itens de trabalho serão selecionados."
+github.migrateTAndPItem2Desc: "Dados do Track & Plan não serão migrados."
+headerSVG.issueTracker: "RASTREADOR DE PROBLEMA"
+headerSVG.think: "THINK"
+headerSVG.code: "ERRO"
+headerSVG.deliver: "DELIVER"
+headerSVG.run: "EXECUTAR"
+headerSVG.repository: "REPOSITORY"
+headerSVG.pipeline: "OLEODUTO"
+headerSVG.bluemix: "BLUEMIX"
+headerSVG.webIde: "WEB IDE"
