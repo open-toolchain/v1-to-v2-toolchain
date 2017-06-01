@@ -1,0 +1,36 @@
+---
+# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
+template.name: "Upgrade to Toolchain~otc-ui1404"
+template.description: |
+  A toolchain is an open, extensible system of tools that supports the development, deployment, and operations of an application.~otc-ui1405
+
+  #### About the Upgrade Process
+  When you create this toolchain, it is preconfigured with GitHub for source control, Delivery Pipeline for building and deployment, and the Eclipse Orion Web IDE for code editing. You can add more tools to the toolchain as needed. To get started, click **Create**.
+
+
+  #### More Info
+  [Tutorial: Upgrade your project to a toolchain](https://ibm.biz/ids-upgrade-blogpost)~otc-ui1406
+  [Docs: Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)~otc-ui1407
+  [Blog: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)~otc-ui1408
+template.gettingStarted: >-~otc-ui1409
+  This toolchain was created from your [DevOps Services project]({{projectUrl}}). Migration of artifacts from the project to the tools in the toolchain continues for a while after the toolchain is created. Before you use the toolchain, verify the status of the upgrade by reviewing the banner on the [project page]({{projectUrl}}), then refer to [these steps](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps) for what to do next. To learn more about toolchains, see [Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).~otc-ui1410
+github.title: "Github link~otc-ui1411"
+github.description: "Github link schema~otc-ui1412"
+github.longDescription: "Store your source code in an existing repository on GitHub.com and engage in social coding through wikis, issue tracking, and pull requests.~otc-ui1413"
+github.sourceRepository: "Source repository URL~otc-ui1414"
+github.repositoryType: "Repository type~otc-ui1415"
+github.existing: "Existing~otc-ui1416"
+github.enableIssues: "Enable GitHub Issues~otc-ui1417"
+github.enableIssuesDesc: "Enable GitHub's Issues page for lightweight issue tracking.~otc-ui1418"
+github.repoType.description: "The repository that your toolchain will link to.~otc-ui1419"
+headerSVG.issueTracker: "ISSUE TRACKER~otc-ui1420"
+headerSVG.gitHub1: "GitHub~otc-ui1421"
+headerSVG.think: "THINK~otc-ui1422"
+headerSVG.code: "CODE~otc-ui1423"
+headerSVG.deliver: "DELIVER~otc-ui1424"
+headerSVG.run: "RUN~otc-ui1425"
+headerSVG.repository: "REPOSITORY~otc-ui1426"
+headerSVG.gitHub2: "GitHub~otc-ui1427"
+headerSVG.pipeline: "PIPELINE~otc-ui1428"
+headerSVG.bluemix: "BLUEMIX~otc-ui1429"
+headerSVG.webIde: "WEB IDE~otc-ui1430"
