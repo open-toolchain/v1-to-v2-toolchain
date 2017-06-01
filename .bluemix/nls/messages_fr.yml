@@ -1,0 +1,56 @@
+﻿---
+# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
+template.name: "Mise à niveau vers une chaîne d'outils"
+template.description: |
+  Une chaîne d'outils est un système d'outils ouvert et extensible qui prend en charge le développement, le déploiement et les opérations d'une application.
+
+
+  #### A propos du processus de mise à niveau
+  Lorsque vous créez cette chaîne d'outils, elle est préconfigurée avec GitHub pour le contrôle de la source, Delivery Pipeline pour la génération et le déploiement et avec l'interface IDE Web Eclipse Orion pour l'édition du code. Vous pouvez ajouter d'autres outils à la chaîne d'outils selon vos besoins. Pour commencer, cliquez sur **Créer**.
+
+
+  #### Informations supplémentaires
+  [Tutoriel : Mise à niveau de votre projet vers une chaîne d'outils](https://ibm.biz/ids-upgrade-blogpost)
+
+  [Docs : Initiation à Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)
+
+  [Blogue : Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)
+template.gettingStarted: >- 
+  Cette chaîne d'outils a été créée à partir de votre [projet DevOps Services]({{projectUrl}}). La migration d'artefacts à partir du projet vers les outils de la chaîne d'outils continue pendant un moment après la création de la chaîne d'outils. Avant d'utiliser la chaîne d'outils, vérifiez le statut de la mise à niveau en consultant la bannière sur la [page du projet]({{projectUrl}}), puis reportez-vous à [ces étapes](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps) pour connaître la procédure à suivre. Pour en savoir plus sur les chaînes d'outils, voir [Initiation à Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).
+github.title: "Lien Github"
+github.description: "Schéma de lien Github"
+github.longDescription: "Stockez votre code source dans un référentiel Git existant sur GitHub.com, et lancez-vous dans le codage social via des wiki, le suivi d'incident et les demandes d'extraction."
+github.sourceRepo: "URL du référentiel source"
+github.repositoryType: "Type de référentiel"
+github.existing: "Existant"
+github.enableIssues: "Activer GitHub Issues"
+github.enableIssuesDesc: "Page Activer GitHub Issues pour le suivi de problème simple."
+github.existingRepoDesc: "Référentiel auquel votre chaîne d'outils va se connecter."
+github.trackDeployment: "Suivi du déploiement des modifications du code"
+github.trackDeployDescription: "Cochez cette case pour assurer le suivi du déploiement des modifications du code en créant des étiquettes, des libellés et des commentaires sur les validations, les demandes d'extraction et les problèmes référencés. Si vous voulez l'activer ultérieurement, vous pouvez cliquer à l'aide du bouton droit sur la carte du référentiel Git dans la page Chaîne d'outils, puis cliquer sur Configurer."
+github.migrateTAndP: "Migrer des éléments de travail Track & Plan vers Git Issues"
+github.migrateTAndPDescription: "Les éléments de travail Track & Plan seront créés sous forme de problèmes Git dans le référentiel récemment créé. Choisissez 'Oui' pour effectuer la migration."
+github.trackAndPlanQuery: "Requête Track & Plan"
+github.labelsTitle: "Les problèmes Git utilisent des étiquettes pour le suivi des attributs. Sélectionnez les attributs d'élément de travail à mapper aux étiquettes dans vos nouveaux problèmes Git."
+github.labelType: "type"
+github.labelSeverity: "gravité"
+github.labelState: "état"
+github.labelPriority: "priorité"
+github.labelResolution: "résolution"
+github.labelFiledAgainst: "filedAgainst"
+github.labelTags: "étiquettes"
+github.tAndPMigration: "Migration Track & Plan"
+github.tAndPMigrationDesc: "Détails pour la configuration de la migration de vos éléments de travail Track & Plan."
+github.tAndPLabelDesc: "Votre nouvelle chaîne d'outils utilise Git Issues pour le suivi de problème.\n\nPour conserver vos données Track & Plan, vous devez les transférer vers Git Issues maintenant. [En savoir plus](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#start_upgrade)."
+github.migrateTAndPItem1Title: "Par défaut, tous vos éléments de travail sont migrés. Si vous ne voulez migrer que des éléments spécifiques, indiquez une [requête Track & Plan]({{rtcSharedQueriesLink}})."
+github.migrateTAndPItem1Desc: "Les éléments de travail seront sélectionnés en fonction de cette requête (à partir de Requêtes partagées). Si aucune requête n'est indiquée, tous les éléments de travail sont sélectionnés."
+github.migrateTAndPItem2Desc: "Les données Track & Plan ne seront pas migrées."
+headerSVG.issueTracker: "SUIVI DE PROBLEME"
+headerSVG.think: "PENSER"
+headerSVG.code: "CODE"
+headerSVG.deliver: "DISTRIBUER"
+headerSVG.run: "EXECUTER"
+headerSVG.repository: "REFERENTIEL"
+headerSVG.pipeline: "PIPELINE"
+headerSVG.bluemix: "BLUEMIX"
+headerSVG.webIde: "IDE WEB"
