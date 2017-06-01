@@ -1,0 +1,43 @@
+---
+# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
+template.name: "升级为工具链"
+template.description: |
+  工具链是一个开放的可扩展工具系统，支持开发、部署和操作应用程序。
+
+
+  #### 关于升级过程
+  创建此工具链时，预先配置了用于源代码控制的 IBM 托管的 Git、用于构建和部署的 Delivery Pipeline，以及用于编辑代码的 Eclipse Orion Web IDE。您可以按需要在工具链中添加更多工具。要开始操作，请单击**创建**。
+
+
+  #### 更多信息
+  [教程：将项目升级为工具链](https://ibm.biz/ids-upgrade-blogpost)
+
+  [文档：开始使用 Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)
+
+  [博客：Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)
+template.gettingStarted: >-
+  此工具链从 [DevOps Services 项目]({{projectUrl}})创建而来。创建工具链之后，将工件从项目迁移到工具链中的工具将会持续一段时间。使用工具链之前，请复查[项目页面]({{projectUrl}})上的条幅以验证升级状态，然后参阅[这些步骤](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps)以获取下一步操作。要了解有关工具链的更多信息，请参阅[开始使用 Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2)。
+github.title: "新建 Git 存储库"
+github.description: "Git 存储库模式"
+github.longDescription: "现有存储库的源代码将迁移到 IBM Hosted Git 上的新存储库。您可以通过 wiki、问题跟踪和拉取请求参与社交编码。"
+github.repositoryType: "存储库类型"
+github.repositoryName: "新建存储库名称"
+github.newRepoDescription: "新建存储库名称"
+github.existingRepository: "现有 Git 存储库"
+github.existingRepoDescription: "将从该存储库导入源代码。"
+github.privateRepository: "专用存储库"
+github.privateRepoDescription: "选中此复选框可创建专用存储库。"
+github.enableIssues: "启用“GitHub Enterprise 问题”"
+github.enableIssuesDescription: "启用“GitHub Enterprise 问题”页面，从而跟踪轻量级问题。"
+github.trackDeployment: "跟踪代码更改的部署"
+github.trackDeployDescription: "选中此复选框可跟踪代码更改的部署，方法是在落实、拉取请求和引用问题时创建标记、标签和注释。如果想要稍后再启用，您可以右键单击“工具链”页面中的 Git 存储库卡，然后单击“配置”。"
+github.new: "新建"
+headerSVG.issueTracker: "问题跟踪程序"
+headerSVG.think: "思考"
+headerSVG.code: "代码"
+headerSVG.deliver: "交付"
+headerSVG.run: "运行"
+headerSVG.repository: "存储库"
+headerSVG.pipeline: "管道"
+headerSVG.bluemix: "BLUEMIX"
+headerSVG.webIde: "WEB IDE"

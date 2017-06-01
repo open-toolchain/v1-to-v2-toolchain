@@ -1,0 +1,43 @@
+﻿---
+# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
+template.name: "升級為工具鏈"
+template.description: |
+  工具鏈是一種開放、可延伸的工具系統，其支援應用程式的開發、部署及作業。
+
+
+  #### 關於升級程序
+  當您建立工具鏈時，會為來源控制預先配置 IBM 管理的 Git、為建置和部署預先配置 Delivery Pipeline，以及為編輯程式碼預先配置 Eclipse Orion Web IDE。您可以視需要新增工具至工具鏈中。若要開始使用，請按一下 **建立**。
+
+
+  #### 更多資訊
+  [指導教學：將您的專案升級為工具鏈](https://ibm.biz/ids-upgrade-blogpost)
+
+  [文件：開始使用 Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)
+
+  [部落格：Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)
+template.gettingStarted: >-
+  此工具鏈已從您的 [DevOps Services 專案]({{projectUrl}}) 中建立。在建立工具鏈之後，將專案中的構件移轉至工具鏈中之工具的作業會持續一段時間。使用工具鏈之前，請先透過檢閱 [專案頁面]({{projectUrl}}) 上的橫幅以驗證升級的狀態，然後參閱 [這些步驟](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps)，以進行接下來的動作。如需進一步瞭解工具鏈，請參閱[開始使用 Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2)。
+github.title: "新建 Git 儲存庫"
+github.description: "Git 儲存庫綱目"
+github.longDescription: "現有儲存庫中的原始碼將移轉至 IBM 管理的 Git 上的新儲存庫中。您可以透過 Wiki、問題追蹤及拉取要求來參與社交編碼的文化。"
+github.repositoryType: "儲存庫類型"
+github.repositoryName: "新的儲存庫名稱"
+github.newRepoDescription: "新的儲存庫名稱"
+github.existingRepository: "現有的 Git 儲存庫"
+github.existingRepoDescription: "這是將從其中匯入原始碼的儲存庫。"
+github.privateRepository: "專用儲存庫"
+github.privateRepoDescription: "選取此勾選框，以建立專用儲存庫。"
+github.enableIssues: "啟用 GitHub Enterprise 問題"
+github.enableIssuesDescription: "啟用 GitHub Enterprise「問題」頁面來進行小型的問題追蹤。"
+github.trackDeployment: "追蹤程式碼變更的部署"
+github.trackDeployDescription: "選取勾選框來追蹤程式碼因在確定、拉取要求及參照問題上建立標記、標籤及加註而變更的部署。若想稍後再啟用，您可以用滑鼠右鍵按一下「工具鏈」頁面中的 Git 儲存庫卡，然後按一下「配置」。"
+github.new: "新建"
+headerSVG.issueTracker: "問題追蹤器"
+headerSVG.think: "思考"
+headerSVG.code: "程式碼"
+headerSVG.deliver: "交付"
+headerSVG.run: "執行"
+headerSVG.repository: "儲存庫"
+headerSVG.pipeline: "管線"
+headerSVG.bluemix: "BLUEMIX"
+headerSVG.webIde: "WEB IDE"
