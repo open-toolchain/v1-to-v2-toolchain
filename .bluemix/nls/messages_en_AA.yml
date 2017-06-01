@@ -12,8 +12,8 @@ template.description: |
   [Tutorial: 3:Upgrade your project to a toolchain](https://ibm.biz/ids-upgrade-blogpost)
   [Docs: 4:Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)
   [Blog: 5:Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)
-template.gettingStarted: 6:>-
-  **Quick start:7:** This toolchain was created from your [DevOps Services project]({[{projectUrl}]}). Before you use the toolchain, verify the status of your upgrade by completing [these steps](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps). To learn more about toolchains, see [Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).
+template.gettingStarted: >-
+  6:**Quick start:7:** This toolchain was created from your [DevOps Services project]({[{projectUrl}]}). Before you use the toolchain, verify the status of your upgrade by completing [these steps](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps). To learn more about toolchains, see [Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).
 github.description: "8:Github link schema"
 github.longDescription: "9:Store your source code in an existing repository on GitHub.com and engage in social coding through wikis, issue tracking, and pull requests."
 github.sourceRepository: "10:Source repository URL"
