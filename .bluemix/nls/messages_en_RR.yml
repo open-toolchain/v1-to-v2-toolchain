@@ -12,7 +12,7 @@ template.description: |
   [Tutorial: Upgrade your project to a toolchain](https://ibm.biz/ids-upgrade-blogpost)~otc-ui1556
   [Docs: Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)~otc-ui1557
   [Blog: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)~otc-ui1558
-template.gettingStarted: >-~otc-ui1559
+template.gettingStarted: >-
   **Quick start:** This toolchain was created from your [DevOps Services project]({[{projectUrl}]}). Before you use the toolchain, verify the status of your upgrade by completing [these steps](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps). To learn more about toolchains, see [Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).~otc-ui1560
 github.description: "Github link schema~otc-ui1561"
 github.longDescription: "Store your source code in an existing repository on GitHub.com and engage in social coding through wikis, issue tracking, and pull requests.~otc-ui1562"
