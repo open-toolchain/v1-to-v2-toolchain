@@ -1,0 +1,39 @@
+---
+# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
+template.name: "도구 체인으로 업그레이드"
+template.description: |
+  도구 체인은 애플리케이션의 개발, 배치, 운영을 지원하는 확장 가능한 개방형 도구 시스템입니다.
+
+
+  #### 업그레이드 프로세스 정보
+  이 도구 체인을 작성하면 소스 제어에 GitHub, 빌드 및 배치에 Delivery Pipeline, 코드 편집에 Eclipse Orion Web IDE를 사용하도록 사전 구성됩니다. 필요에 따라 도구 체인에 더 많은 도구를 추가할 수 있습니다. 시작하려면 **작성**을 클릭하십시오.
+
+
+  #### 자세한 정보
+  [튜토리얼: 프로젝트를 도구 체인으로 업그레이드](https://ibm.biz/ids-upgrade-blogpost)
+
+  [문서: Continuous Delivery 시작하기](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)
+
+  [블로그: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)
+template.gettingStarted: >-
+  이 도구 체인은 사용자의 [DevOps Services 프로젝트]({{projectUrl}})에서 작성되었습니다. 도구 체인이 작성된 후 잠시 동안 프로젝트의 아티팩트에서 도구 체인의 도구로 마이그레이션이 진행됩니다. 도구 체인을 사용하기 전에, [프로젝트 페이지]({{projectUrl}})에서 배너를 검토하여 업그레이드 상태를 확인한 다음 [이 단계](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps)를 참조하여 다음에 수행할 작업을 확인하십시오. 도구 체인에 대해 자세히 알아보려면 [Continuous Delivery 시작하기](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2)를 참조하십시오.
+github.title: "Github 링크"
+github.description: "Github 링크 스키마"
+github.longDescription: "GitHub.com의 기존 저장소에 소스 코드를 저장하고 위키, 문제 추적, 가져오기 요청을 통해 소셜 코딩을 활용합니다."
+github.sourceRepository: "소스 저장소 URL"
+github.repositoryType: "저장소 유형"
+github.existing: "기존"
+github.enableIssues: "GitHub Issues 사용"
+github.enableIssuesDesc: "가벼운 문제 추적을 위해 GitHub Issues 페이지를 사용합니다."
+github.repoType.description: "도구 체인을 링크할 저장소입니다."
+headerSVG.issueTracker: "문제 트래커"
+headerSVG.gitHub1: "GitHub"
+headerSVG.think: "사고"
+headerSVG.code: "코드"
+headerSVG.deliver: "전달"
+headerSVG.run: "실행"
+headerSVG.repository: "저장소"
+headerSVG.gitHub2: "GitHub"
+headerSVG.pipeline: "PIPELINE"
+headerSVG.bluemix: "BLUEMIX"
+headerSVG.webIde: "WEB IDE"
