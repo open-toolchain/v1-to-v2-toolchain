@@ -1,0 +1,33 @@
+---
+# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
+template.name: "[G'Ｕｐｇｒａｄｅ to Toolchainฏูİı｜]"
+template.description: |
+  [G'Ａ ｔｏｏｌｃｈａｉｎ ｉｓ ａｎ ｏｐｅｎ, ｅｘｔｅｎｓｉｂｌｅ ｓｙstem of tools that supports the development, deployment, and operations of an application.ฏูİı｜]
+
+  #### About the Upgrade Process
+  When you create this toolchain, it is preconfigured with GitHub for source control, Delivery Pipeline for building and deployment, and the Eclipse Orion Web IDE for code editing. You can add more tools to the toolchain as needed. To get started, click **Create**.
+
+
+  #### More Info
+  [Tutorial: [G'Ｕｐｇｒａｄｅ ｙｏｕｒ ｐｒoject to a toolchain](https://ibm.biz/ids-upgrade-blogpost)ฏูİı｜]
+  [Docs: [G'Ｇｅｔｔｉｎｇ ｓｔａｒｔｅｄ ｗｉｔｈ Ｃｏｎｔｉｎｕｏus Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)ฏูİı｜]
+  [Blog: [G'Ｂｌｕｅｍｉｘ Ｃｏｎｔｉｎｕｏｕｓ Ｄｅｌｉｖｅｒy](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)ฏูİı｜]
+template.gettingStarted: >-
+  [G'**Quick start:[G'** Ｔｈｉｓ ｔｏｏｌｃｈａｉｎ ｗａｓ ｃｒｅａｔｅｄ ｆｒｏｍ ｙｏｕｒ [ＤｅｖＯｐｓ Ｓｅｒｖｉｃｅｓ ｐｒｏｊｅｃｔ]({[{projectUrl}]}). Ｂｅｆｏｒｅ ｙｏｕ ｕｓｅ ｔｈｅ ｔｏｏｌｃｈａｉｎ, ｖｅｒｉｆｙ ｔｈｅ ｓｔａｔｕｓ ｏｆ ｙｏｕｒ ｕｐｇｒａｄｅ ｂｙ ｃｏｍｐｌｅｔｉｎｇ [ｔｈｅｓe steps](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps). To learn more about toolchains, see [Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).ฏูİı｜]
+github.description: "[G'Ｇｉｔｈｕｂ link schemaฏูİı｜]"
+github.longDescription: "[G'Ｓｔｏｒｅ ｙｏｕｒ ｓｏｕｒｃｅ ｃｏｄｅ ｉｎ ａｎ ｅｘｉｓｔｉｎｇ ｒｅpository on GitHub.com and engage in social coding through wikis, issue tracking, and pull requests.ฏูİı｜]"
+github.sourceRepository: "[G'Ｓｏｕｒｃｅ ｒepository URLฏูİı｜]"
+github.repositoryType: "[G'Ｒｅｐｏsitory typeฏูİı｜]"
+github.existing: "[G'Existingฏูİı｜]"
+github.repoType.description: "[G'Ｔｈｅ ｒｅｐｏｓｉｔｏry that your toolchain will link to.ฏูİı｜]"
+headerSVG.issueTracker: "[G'ＩＳＳUE TRACKERฏูİı｜]"
+headerSVG.gitHub1: "[G'GitHubฏูİı｜]"
+headerSVG.think: "[G'THINKฏูİı｜]"
+headerSVG.code: "[G'CODEฏูİı｜]"
+headerSVG.deliver: "[G'DELIVERฏูİı｜]"
+headerSVG.run: "[G'RUNฏูİı｜]"
+headerSVG.repository: "[G'ＲEPOSITORYฏูİı｜]"
+headerSVG.gitHub2: "[G'GitHubฏูİı｜]"
+headerSVG.pipeline: "[G'PIPELINEฏูİı｜]"
+headerSVG.bluemix: "[G'BLUEMIXฏูİı｜]"
+headerSVG.webIde: "[G'WEB IDEฏูİı｜]"

@@ -1,0 +1,36 @@
+﻿---
+# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
+template.name: "Mise à niveau vers une chaîne d'outils"
+template.description: |
+  Une chaîne d'outils est un système d'outils ouvert et extensible qui prend en charge le développement, le déploiement et les opérations d'une application.
+
+
+  #### A propos du processus de mise à niveau
+  Lorsque vous créez cette chaîne d'outils, elle est préconfigurée avec GitHub pour le contrôle de la source, Delivery Pipeline pour la génération et le déploiement et avec l'interface IDE Web Eclipse Orion pour l'édition du code. Vous pouvez ajouter d'autres outils à la chaîne d'outils selon vos besoins. Pour commencer, cliquez sur **Créer**.
+
+
+  #### Informations supplémentaires
+  [Tutoriel : Mise à niveau de votre projet vers une chaîne d'outils](https://ibm.biz/ids-upgrade-blogpost)
+
+  [Docs : Initiation à Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)
+
+  [Blogue : Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)
+template.gettingStarted: >- 
+  **Démarrage rapide :** Cette chaîne d'outils a été créée à partir de votre [projet DevOps Services]({{projectUrl}}). Avant d'utiliser la chaîne d'outils, vérifiez le statut de votre mise à niveau en exécutant [ces étapes](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps). Pour en savoir plus sur les chaînes d'outils, voir [Initiation à Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).
+github.description: "Schéma de lien Github"
+github.longDescription: "Stockez votre code source dans un référentiel existant sur GitHub.com, et lancez-vous dans le codage social via des wiki, le suivi d'incident et les demandes d'extraction."
+github.sourceRepository: "URL du référentiel source"
+github.repositoryType: "Type de référentiel"
+github.existing: "Existant"
+github.repoType.description: "Référentiel auquel votre chaîne d'outils va se connecter."
+headerSVG.issueTracker: "SUIVI DE PROBLEME"
+headerSVG.gitHub1: "GitHub"
+headerSVG.think: "PENSER"
+headerSVG.code: "CODE"
+headerSVG.deliver: "DISTRIBUER"
+headerSVG.run: "EXECUTER"
+headerSVG.repository: "REFERENTIEL"
+headerSVG.gitHub2: "GitHub"
+headerSVG.pipeline: "PIPELINE"
+headerSVG.bluemix: "BLUEMIX"
+headerSVG.webIde: "IDE WEB"
