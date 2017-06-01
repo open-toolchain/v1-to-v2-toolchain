@@ -1,0 +1,60 @@
+---
+# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
+template.name: "Aggiornamento alla toolchain"
+template.description: |
+  Una toolchain rappresenta un sistema aperto, estendibile di strumenti che supporta lo sviluppo, la distribuzione e le operazioni di un'applicazione.
+
+
+  #### About the Upgrade Process
+  Quando viene creata, questa toolchain è preconfigurata con GitHub per il controllo origine, Delivery Pipeline per la creazione e la distribuzione e IDE Web Eclipse Orion per la modifica del codice. È possibile aggiungere ulteriori strumenti alla toolchain, in base alle necessità. Per iniziare, fare clic su **Crea**.
+
+
+  #### More Info
+  [Tutorial: Aggiornare il progetto ad una toolchain](https://ibm.biz/ids-upgrade-blogpost)
+
+  [Docs: Introduzione a Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)
+
+  [Blog: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)
+template.gettingStarted: >- 
+  Questa toolchain è stata creata da  [DevOps Services project]({{projectUrl}}). La migrazione delle risorse utente dal progetto agli strumenti nella toolchain continua anche dopo che la toolchain è stata creata. Prima di utilizzare la toolchain, verificare lo stato di aggiornamento riesaminando il banner in  [Pagina Progetto]({{projectUrl}}), quindi fare riferimento a  [questi passi](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps) per ciò che va fatto successivamente. Per ulteriori informazioni relative alle toolchain, consultare [Introduzione a Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).
+github.title: "Nuovo repository Git"
+github.description: "Schema repository Git"
+github.longDescription: "Il codice sorgente dal repository esistente verrà migrato nel nuovo repository in IBM Hosted Git. È possibile partecipare al social coding attraverso wiki, traccia dei problemi e richieste di pull."
+github.repositoryType: "Tipo di repository"
+github.repositoryName: "Nuovo nome repository"
+github.newRepoDescription: "Nuovo nome repository"
+github.existingRepository: "Repository Git esistente"
+github.existingRepoDescription: "Questo è il repository da cui verrà importato il codice di origine."
+github.privateRepository: "Repository privato"
+github.privateRepoDescription: "Selezionare questa casella di spunta per creare un repository privato."
+github.enableIssues: "Abilitare GitHub Enterprise Issues"
+github.enableIssuesDescription: "Abilitare la pagina GitHub Enterprise Issues per la traccia dei problemi lightweight."
+github.trackDeployment: "Traccia della distribuzione delle modifiche al codice"
+github.trackDeployDescription: "Selezionare questa casella di spunta per tenere traccia della distribuzione delle modifiche apportate al codice, creando tag, etichette e commenti sui commit, richieste di pull e problemi a cui si fa riferimento. Se si desidera abilitare successivamente, è possibile fare clic con il tasto destro del mouse sulla scheda repository nella pagina Toolchain e fare clic su Configura."
+github.migrateTAndP: "Migra gli elementi di lavoro Track & Plan in Git Issues"
+github.migrateTAndPDescription: "Gli elementi di lavoro Track & Plan verranno creati come Git issues nel repository creato di recente. Scegliere 'Sì' se si desidera eseguire la migrazione."
+github.trackAndPlanQuery: "Query Track & Plan"
+github.labelsTitle: "Git Issues utilizza etichette per tracciare gli attributi. Selezionare quali attributi dell'elemento di lavoro associare alle etichette in Git Issue."
+github.labelType: "tipo"
+github.labelSeverity: "gravità"
+github.labelState: "stato"
+github.labelPriority: "priorità"
+github.labelResolution: "risoluzione"
+github.labelFiledAgainst: "filedAgainst"
+github.labelTags: "tag"
+github.new: "Nuovo"
+github.tAndPMigration: "Migrazione Track & Plan"
+github.tAndPMigrationDesc: "Dettagli per configurare la migrazione degli elementi di lavoro Track & Plan."
+github.tAndPLabelDesc: "La nuova toolchain utilizza Git Issues per tracciare i problemi.\n\nPer conservare i dati Track & Plan, è necessario trasferirli ora in Git Issues. [Ulteriori informazioni](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#start_upgrade)."
+github.migrateTAndPItem1Title: "Per impostazione predefinita, tutti gli elementi di lavoro vengono migrati. Se si desidera migrare solo specifici elementi, specificare una [query Track & Plan]({{rtcSharedQueriesLink}})."
+github.migrateTAndPItem1Desc: "Gli elementi di lavoro verranno selezionati in base a questa query (dalle query condivise). Se non viene specificata una query, tutti gli elementi di lavoro sono selezionati."
+github.migrateTAndPItem2Desc: "I dati Track & Plan non verranno migrati."
+headerSVG.issueTracker: "ISSUE TRACKER"
+headerSVG.think: "PENSA"
+headerSVG.code: "CODICE"
+headerSVG.deliver: "DISTRIBUISCI"
+headerSVG.run: "ESEGUI"
+headerSVG.repository: "REPOSITORY"
+headerSVG.pipeline: "PIPELINE"
+headerSVG.bluemix: "BLUEMIX"
+headerSVG.webIde: "IDE WEB"
