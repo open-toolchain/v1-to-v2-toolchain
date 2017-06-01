@@ -12,7 +12,7 @@ template.description: |
   [Tutorial: Upgrade your project to a toolchain](https://ibm.biz/ids-upgrade-blogpost)~otc-ui1406
   [Docs: Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)~otc-ui1407
   [Blog: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)~otc-ui1408
-template.gettingStarted: >-~otc-ui1409
+template.gettingStarted: >-
   This toolchain was created from your [DevOps Services project]({{projectUrl}}). Migration of artifacts from the project to the tools in the toolchain continues for a while after the toolchain is created. Before you use the toolchain, verify the status of the upgrade by reviewing the banner on the [project page]({{projectUrl}}), then refer to [these steps](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps) for what to do next. To learn more about toolchains, see [Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).~otc-ui1410
 github.title: "Github link~otc-ui1411"
 github.description: "Github link schema~otc-ui1412"
