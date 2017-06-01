@@ -1,0 +1,57 @@
+---
+# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
+template.name: "Upgrade to Toolchain~otc-ui1506"
+template.description: |
+  A toolchain is an open, extensible system of tools that supports the development, deployment, and operations of an application.~otc-ui1507
+
+  #### About the Upgrade Process
+  When you create this toolchain, it is preconfigured with IBM hosted Git for source control, Delivery Pipeline for building and deployment, and the Eclipse Orion Web IDE for code editing. You can add more tools to the toolchain as needed. To get started, click **Create**.
+
+
+  #### More Info
+  [Tutorial: Upgrade your project to a toolchain](https://ibm.biz/ids-upgrade-blogpost)~otc-ui1508
+  [Docs: Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)~otc-ui1509
+  [Blog: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)~otc-ui1510
+template.gettingStarted: >-~otc-ui1511
+  This toolchain was created from your [DevOps Services project]({{projectUrl}}). Migration of artifacts from the project to the tools in the toolchain continues for a while after the toolchain is created. Before you use the toolchain, verify the status of the upgrade by reviewing the banner on the [project page]({{projectUrl}}), then refer to [these steps](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps) for what to do next. To learn more about toolchains, see [Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).~otc-ui1512
+github.title: "New Git repository~otc-ui1513"
+github.description: "Git repository schema~otc-ui1514"
+github.longDescription: "Source code from your existing repository will be migrated to a new repository on IBM Hosted Git. You can engage in social coding through wikis, issue tracking, and pull requests.~otc-ui1515"
+github.repositoryType: "Repository type~otc-ui1516"
+github.repositoryName: "New Repository name~otc-ui1517"
+github.newRepoDescription: "New Repository name~otc-ui1518"
+github.existingRepository: "Existing Git Repository~otc-ui1519"
+github.existingRepoDescription: "This is the repository from which the source code will be imported.~otc-ui1520"
+github.privateRepository: "Private Repository~otc-ui1521"
+github.privateRepoDescription: "Select this check box to create a private repository.~otc-ui1522"
+github.enableIssues: "Enable GitHub Enterprise Issues~otc-ui1523"
+github.enableIssuesDescription: "Enable GitHub Enterprise Issues page for lightweight issue tracking.~otc-ui1524"
+github.trackDeployment: "Track deployment of code changes~otc-ui1525"
+github.trackDeployDescription: "Select this check box to track the deployment of code changes by creating tags, labels and comments on commits, pull requests and referenced issues. If you want to enable later, you can right-click on the Git repo card in the Toolchain page and click Configure.~otc-ui1526"
+github.migrateTAndP: "Migrate Track & Plan work items to Git Issues~otc-ui1527"
+github.migrateTAndPDescription: "Track & Plan work items will be created as Git issues in your newly created repository. Choose 'Yes' if you want to migrate.~otc-ui1528"
+github.trackAndPlanQuery: "Track & Plan query~otc-ui1529"
+github.labelsTitle: "Git issues use labels to track attributes. Select which work item attributes to map to labels in your new Git issues~otc-ui1530"
+github.labelType: "type~otc-ui1531"
+github.labelSeverity: "severity~otc-ui1532"
+github.labelState: "state~otc-ui1533"
+github.labelPriority: "priority~otc-ui1534"
+github.labelResolution: "resolution~otc-ui1535"
+github.labelFiledAgainst: "filedAgainst~otc-ui1536"
+github.labelTags: "tags~otc-ui1537"
+github.new: "New~otc-ui1538"
+github.tAndPMigration: "Track & Plan Migration~otc-ui1539"
+github.tAndPMigrationDesc: "Details for setting up the migration of your Track & Plan Work Items.~otc-ui1540"
+github.tAndPLabelDesc: "Your new toolchain uses Git Issues for issue tracking.\n\nTo keep your Track & Plan data, you must transfer it to Git Issues now. [Learn more](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#start_upgrade).~otc-ui1541"
+github.migrateTAndPItem1Title: "By default, all of your work items are migrated. If you want to migrate only specific items, specify a [Track & Plan query]({[{rtcSharedQueriesLink}]}).~otc-ui1542"
+github.migrateTAndPItem1Desc: "Work Items will be selected based on this query (from Shared Queries). If a query is not specified, all work items are selected.~otc-ui1543"
+github.migrateTAndPItem2Desc: "Track & Plan data will not be migrated.~otc-ui1544"
+headerSVG.issueTracker: "ISSUE TRACKER~otc-ui1545"
+headerSVG.think: "THINK~otc-ui1546"
+headerSVG.code: "CODE~otc-ui1547"
+headerSVG.deliver: "DELIVER~otc-ui1548"
+headerSVG.run: "RUN~otc-ui1549"
+headerSVG.repository: "REPOSITORY~otc-ui1550"
+headerSVG.pipeline: "PIPELINE~otc-ui1551"
+headerSVG.bluemix: "BLUEMIX~otc-ui1552"
+headerSVG.webIde: "WEB IDE~otc-ui1553"
