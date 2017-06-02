@@ -1,22 +1,7 @@
 ---
-# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
 template.name: "Upgrade to Toolchain"
-template.description: |
-  A toolchain is an open, extensible system of tools that supports the development, deployment, and operations of an application.
-
-
-  #### About the Upgrade Process
-  When you create this toolchain, it is preconfigured with GitHub for source control, Delivery Pipeline for building and deployment, and the Eclipse Orion Web IDE for code editing. You can add more tools to the toolchain as needed. To get started, click **Create**.
-
-
-  #### More Info
-  [Tutorial: Upgrade your project to a toolchain](https://ibm.biz/ids-upgrade-blogpost)
-
-  [Docs: Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)
-
-  [Blog: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)
-template.gettingStarted: >-
-  **Quick start:** This toolchain was created from your [DevOps Services project]({{projectUrl}}). Before you use the toolchain, verify the status of your upgrade by completing [these steps](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps). To learn more about toolchains, see [Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).
+template.description: "A toolchain is an open, extensible system of tools that supports the development, deployment, and operations of an application.\n\n#### About the Upgrade Process\nWhen you create this toolchain, it is preconfigured with GitHub for source control, Delivery Pipeline for building and deployment, and the Eclipse Orion Web IDE for code editing. You can add more tools to the toolchain as needed. To get started, click **Create**.\n\n#### More Info\n[Tutorial: Upgrade your project to a toolchain](https://ibm.biz/ids-upgrade-blogpost)\n\n[Docs: Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)\n\n[Blog: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)"
+template.gettingStarted: "**Quick start:** This toolchain was created from your [DevOps Services project]({{projectUrl}}). Before you use the toolchain, verify the status of your upgrade by completing [these steps](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps). To learn more about toolchains, see [Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2)."
 github.description: "Github link schema"
 github.longDescription: "Store your source code in an existing repository on GitHub.com and engage in social coding through wikis, issue tracking, and pull requests."
 github.sourceRepository: "Source repository URL"
