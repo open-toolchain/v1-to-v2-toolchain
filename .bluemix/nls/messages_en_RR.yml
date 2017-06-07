@@ -1,40 +1,28 @@
 ---
-# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
-template.name: "Upgrade to Toolchain~otc-ui1475"
-template.description: |
-  A toolchain is an open, extensible system of tools that supports the development, deployment, and operations of an application.~otc-ui1476
-
-  #### About the Upgrade Process
-  When you create this toolchain, it is preconfigured with IBM hosted Git for source control, Delivery Pipeline for building and deployment, and the Eclipse Orion Web IDE for code editing. You can add more tools to the toolchain as needed. To get started, click **Create**.
-
-
-  #### More Info
-  [Tutorial: Upgrade your project to a toolchain](https://ibm.biz/ids-upgrade-blogpost)~otc-ui1477
-  [Docs: Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)~otc-ui1478
-  [Blog: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)~otc-ui1479
-template.gettingStarted: >-
-  This toolchain was created from your [DevOps Services project]({{projectUrl}}). Migration of artifacts from the project to the tools in the toolchain continues for a while after the toolchain is created. Before you use the toolchain, verify the status of the upgrade by reviewing the banner on the [project page]({{projectUrl}}), then refer to [these steps](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps) for what to do next. To learn more about toolchains, see [Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).~otc-ui1481
-github.title: "New Git repository~otc-ui1482"
-github.description: "Git repository schema~otc-ui1483"
-github.longDescription: "Source code from your existing repository will be migrated to a new repository on IBM Hosted Git. You can engage in social coding through wikis, issue tracking, and pull requests.~otc-ui1484"
-github.repositoryType: "Repository type~otc-ui1485"
-github.repositoryName: "New Repository name~otc-ui1486"
-github.newRepoDescription: "New Repository name~otc-ui1487"
-github.existingRepository: "Existing Git Repository~otc-ui1488"
-github.existingRepoDescription: "This is the repository from which the source code will be imported.~otc-ui1489"
-github.privateRepository: "Private Repository~otc-ui1490"
-github.privateRepoDescription: "Select this check box to create a private repository.~otc-ui1491"
-github.enableIssues: "Enable GitHub Enterprise Issues~otc-ui1492"
-github.enableIssuesDescription: "Enable GitHub Enterprise Issues page for lightweight issue tracking.~otc-ui1493"
-github.trackDeployment: "Track deployment of code changes~otc-ui1494"
-github.trackDeployDescription: "Select this check box to track the deployment of code changes by creating tags, labels and comments on commits, pull requests and referenced issues. If you want to enable later, you can right-click on the Git repo card in the Toolchain page and click Configure.~otc-ui1495"
-github.new: "New~otc-ui1496"
-headerSVG.issueTracker: "ISSUE TRACKER~otc-ui1497"
-headerSVG.think: "THINK~otc-ui1498"
-headerSVG.code: "CODE~otc-ui1499"
-headerSVG.deliver: "DELIVER~otc-ui1500"
-headerSVG.run: "RUN~otc-ui1501"
-headerSVG.repository: "REPOSITORY~otc-ui1502"
-headerSVG.pipeline: "PIPELINE~otc-ui1503"
-headerSVG.bluemix: "BLUEMIX~otc-ui1504"
-headerSVG.webIde: "WEB IDE~otc-ui1505"
+template.name: "Upgrade to Toolchain~otc-ui1462"
+template.description: "A toolchain is an open, extensible system of tools that supports the development, deployment, and operations of an application.\n\n#### About the Upgrade Process\nWhen you create this toolchain, it is preconfigured with IBM hosted Git for source control, Delivery Pipeline for building and deployment, and the Eclipse Orion Web IDE for code editing. You can add more tools to the toolchain as needed. To get started, click **Create**.\n\n#### More Info\n[Tutorial: Upgrade your project to a toolchain](https://ibm.biz/ids-upgrade-blogpost)\n\n[Docs: Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)\n\n[Blog: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)~otc-ui1463"
+template.gettingStarted: "This toolchain was created from your [DevOps Services project]({[{projectUrl}]}). Migration of artifacts from the project to the tools in the toolchain continues for a while after the toolchain is created. Before you use the toolchain, verify the status of the upgrade by reviewing the banner on the [project page]({[{projectUrl}]}), then refer to [these steps](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps) for what to do next. To learn more about toolchains, see [Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).~otc-ui1464"
+github.title: "New Git repository~otc-ui1465"
+github.description: "Git repository schema~otc-ui1466"
+github.longDescription: "Source code from your existing repository will be migrated to a new repository on IBM Hosted Git. You can engage in social coding through wikis, issue tracking, and pull requests.~otc-ui1467"
+github.repositoryType: "Repository type~otc-ui1468"
+github.repositoryName: "New Repository name~otc-ui1469"
+github.newRepoDescription: "New Repository name~otc-ui1470"
+github.existingRepository: "Existing Git Repository~otc-ui1471"
+github.existingRepoDescription: "This is the repository from which the source code will be imported.~otc-ui1472"
+github.privateRepository: "Private Repository~otc-ui1473"
+github.privateRepoDescription: "Select this check box to create a private repository.~otc-ui1474"
+github.enableIssues: "Enable GitHub Enterprise Issues~otc-ui1475"
+github.enableIssuesDescription: "Enable GitHub Enterprise Issues page for lightweight issue tracking.~otc-ui1476"
+github.trackDeployment: "Track deployment of code changes~otc-ui1477"
+github.trackDeployDescription: "Select this check box to track the deployment of code changes by creating tags, labels and comments on commits, pull requests and referenced issues. If you want to enable later, you can right-click on the Git repo card in the Toolchain page and click Configure.~otc-ui1478"
+github.new: "New~otc-ui1479"
+headerSVG.issueTracker: "ISSUE TRACKER~otc-ui1480"
+headerSVG.think: "THINK~otc-ui1481"
+headerSVG.code: "CODE~otc-ui1482"
+headerSVG.deliver: "DELIVER~otc-ui1483"
+headerSVG.run: "RUN~otc-ui1484"
+headerSVG.repository: "REPOSITORY~otc-ui1485"
+headerSVG.pipeline: "PIPELINE~otc-ui1486"
+headerSVG.bluemix: "BLUEMIX~otc-ui1487"
+headerSVG.webIde: "WEB IDE~otc-ui1488"
