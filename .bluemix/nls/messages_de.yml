@@ -1,23 +1,7 @@
 ---
 template.name: "Auf Toolchain aufrüsten"
-template.description: |
-  Eine Toolchain ist ein offenes, erweiterbares System aus Tools, das die Entwicklung, Bereitstellung und den Betrieb einer Anwendung unterstützt.
-
-
-  #### Informationen zum Upgradeprozess
-  Wenn Sie diese Toolchain erstellen, wird sie mit GitHub für die Quellcodeverwaltung, Delivery Pipeline für die Erstellung und Bereitstellung und der Web-IDE für Eclipse Orion für die Codebearbeitung vorkonfiguriert. Bei Bedarf können Sie der Toolchain weitere Tools hinzufügen. Klicken Sie auf **Erstellen**, um zu beginnen.
-
-
-  #### Weitere Informationen
-  [Lernprogramm: DevOps Services-Projekt auf Verwendung einer Toolchain aktualisieren](https://ibm.biz/ids-upgrade-blogpost)
-
-  [Dokumente: Einführung in Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)
-
-  [Blog: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)
-template.gettingStarted: >-
-  **Schnelleinstieg:** Diese Toolchain wurde aus Ihrem [DevOps Services-Projekt]({{projectUrl}}) erstellt. Überprüfen Sie vor der Verwendung der Toolchain den Status
-  Ihres Upgrades, indem Sie [diese Schritte](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps) ausführen.
-  Weitere Informationen zu Toolchains finden Sie in der [Einführung in Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).
+template.description: "Eine Toolchain ist ein offenes, erweiterbares System aus Tools, das die Entwicklung, Bereitstellung und den Betrieb einer Anwendung unterstützt.\n\n#### Informationen zum Upgradeprozess\nWenn Sie diese Toolchain erstellen, wird sie mit GitHub für die Quellcodeverwaltung, Delivery Pipeline für die Erstellung und Bereitstellung und der Web-IDE für Eclipse Orion für die Codebearbeitung vorkonfiguriert. Bei Bedarf können Sie der Toolchain weitere Tools hinzufügen. Klicken Sie auf **Erstellen**, um zu beginnen.\n\n#### Weitere Informationen\n[Lernprogramm: Projekt auf Verwendung einer Toolchain aktualisieren](https://ibm.biz/ids-upgrade-blogpost)\n\n[Dokumente: Einführung in Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)\n\n[Blog: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)"
+template.gettingStarted: "**Schnelleinstieg:** Diese Toolchain wurde aus Ihrem [DevOps Services-Projekt]({{projectUrl}}) erstellt. Überprüfen Sie vor der Verwendung der Toolchain den Status Ihres Upgrades, indem Sie [diese Schritte](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps) ausführen. Weitere Informationen zu Toolchains finden Sie in der [Einführung in Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2)."
 github.description: "GitHub-Linkschema"
 github.longDescription: "Speichern Sie Ihren Quellcode in einem bereits vorhandenen Repository unter GitHub.com und nehmen Sie über Wikis, Problemverfolgung und Pull-Anforderungen am Social Coding teil."
 github.sourceRepository: "URL des Quellenrepositorys"
