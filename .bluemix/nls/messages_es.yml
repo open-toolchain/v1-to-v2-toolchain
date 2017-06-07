@@ -1,22 +1,7 @@
 ---
-# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
 template.name: "Actualización a una cadena de herramientas"
-template.description: |
-  Una cadena de herramientas es un sistema ampliable y abierto de herramientas que dan soporte al desarrollo, el despliegue y las operaciones relacionadas con una aplicación. 
-
-
-  #### Acerca del proceso de actualización
-  Cuando crea esta cadena de herramientas, se configura con GitHub como control de código fuente, Delivery Pipeline para compilar y desplegar y el IDE web de Eclipse Orion para editar el código. Añada más herramientas a la cadena según lo necesite. Para empezar, pulse **Crear**.
-  
-
-  #### Información adicional
-  [Guía de aprendizaje: Actualización de su proyecto a una cadena de herramientas](https://ibm.biz/ids-upgrade-blogpost)
-
-  [Documentos: Iniciación al Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)
-
-  [Blog: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)
-template.gettingStarted: >-
-  **Inicio rápido:** Esta cadena de herramientas se creó desde su [proyecto de DevOps Services]({{projectUrl}}). Antes de utilizar la cadena de herramientas, verifique el estado de su actualización completando [estos pasos](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps). Para obtener más información sobre las cadenas de herramientas, consulte [Iniciación al Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).
+template.description: "Una cadena de herramientas es un sistema ampliable y abierto de herramientas que dan soporte al desarrollo, el despliegue y las operaciones relacionadas con una aplicación. \n\n#### Acerca del proceso de actualización\nCuando crea esta cadena de herramientas, se preconfigura con GitHub para el control de código fuente, Delivery Pipeline para la compilación y el despliegue e Eclipse Orion Web IDE para la edición de código. Puede añadir más herramientas a la cadena de herramientas según sea necesario. Para comenzar, pulse **Crear**.\n\n#### Más información\n[Guía de aprendizaje: Actualizar su proyecto para una cadena de herramientas](https://ibm.biz/ids-upgrade-blogpost)\n\n[Documentación: Iniciación al Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)\n\n[Blog: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/) "
+template.gettingStarted: "**Inicio rápido:** Esta cadena de herramientas se creó desde su [proyecto de DevOps Services]({{projectUrl}}). Antes de utilizar la cadena de herramientas, verifique el estado de su actualización completando [estos pasos](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps). Para obtener más información sobre las cadenas de herramientas, consulte [Iniciación al Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2)."
 github.description: "Esquema de enlace de Github "
 github.longDescription: "Almacene el código fuente en un repositorio existente en GitHub.com y participe en la codificación social a través de wikis, rastreo de problemas y solicitudes de extracción."
 github.sourceRepository: "URL de repositorio de origen"

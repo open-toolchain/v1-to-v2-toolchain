@@ -1,33 +1,21 @@
 ---
-# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
 template.name: "1:Upgrade to Toolchain"
-template.description: |
-  2:A toolchain is an open, extensible system of tools that supports the development, deployment, and operations of an application.
-
-  #### About the Upgrade Process
-  When you create this toolchain, it is preconfigured with GitHub for source control, Delivery Pipeline for building and deployment, and the Eclipse Orion Web IDE for code editing. You can add more tools to the toolchain as needed. To get started, click **Create**.
-
-
-  #### More Info
-  [Tutorial: 3:Upgrade your project to a toolchain](https://ibm.biz/ids-upgrade-blogpost)
-  [Docs: 4:Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)
-  [Blog: 5:Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)
-template.gettingStarted: >-
-  6:**Quick start:7:** This toolchain was created from your [DevOps Services project]({[{projectUrl}]}). Before you use the toolchain, verify the status of your upgrade by completing [these steps](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps). To learn more about toolchains, see [Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).
-github.description: "8:Github link schema"
-github.longDescription: "9:Store your source code in an existing repository on GitHub.com and engage in social coding through wikis, issue tracking, and pull requests."
-github.sourceRepository: "10:Source repository URL"
-github.repositoryType: "11:Repository type"
-github.existing: "12:Existing"
-github.repoType.description: "13:The repository that your toolchain will link to."
-headerSVG.issueTracker: "14:ISSUE TRACKER"
-headerSVG.gitHub1: "15:GitHub"
-headerSVG.think: "16:THINK"
-headerSVG.code: "17:CODE"
-headerSVG.deliver: "18:DELIVER"
-headerSVG.run: "19:RUN"
-headerSVG.repository: "20:REPOSITORY"
-headerSVG.gitHub2: "21:GitHub"
-headerSVG.pipeline: "22:PIPELINE"
-headerSVG.bluemix: "23:BLUEMIX"
-headerSVG.webIde: "24:WEB IDE"
+template.description: "2:A toolchain is an open, extensible system of tools that supports the development, deployment, and operations of an application.\n\n#### About the Upgrade Process\nWhen you create this toolchain, it is preconfigured with GitHub for source control, Delivery Pipeline for building and deployment, and the Eclipse Orion Web IDE for code editing. You can add more tools to the toolchain as needed. To get started, click **Create**.\n\n#### More Info\n[Tutorial: Upgrade your project to a toolchain](https://ibm.biz/ids-upgrade-blogpost)\n\n[Docs: Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)\n\n[Blog: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)"
+template.gettingStarted: "3:**Quick start:** This toolchain was created from your [DevOps Services project]({[{projectUrl}]}). Before you use the toolchain, verify the status of your upgrade by completing [these steps](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps). To learn more about toolchains, see [Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2)."
+github.description: "4:Github link schema"
+github.longDescription: "5:Store your source code in an existing repository on GitHub.com and engage in social coding through wikis, issue tracking, and pull requests."
+github.sourceRepository: "6:Source repository URL"
+github.repositoryType: "7:Repository type"
+github.existing: "8:Existing"
+github.repoType.description: "9:The repository that your toolchain will link to."
+headerSVG.issueTracker: "10:ISSUE TRACKER"
+headerSVG.gitHub1: "11:GitHub"
+headerSVG.think: "12:THINK"
+headerSVG.code: "13:CODE"
+headerSVG.deliver: "14:DELIVER"
+headerSVG.run: "15:RUN"
+headerSVG.repository: "16:REPOSITORY"
+headerSVG.gitHub2: "17:GitHub"
+headerSVG.pipeline: "18:PIPELINE"
+headerSVG.bluemix: "19:BLUEMIX"
+headerSVG.webIde: "20:WEB IDE"
