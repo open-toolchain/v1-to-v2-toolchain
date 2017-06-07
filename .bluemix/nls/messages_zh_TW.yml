@@ -1,22 +1,7 @@
-﻿---
-# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
+---
 template.name: "升級為工具鏈"
-template.description: |
-  工具鏈是一種開放、可延伸的工具系統，其支援應用程式的開發、部署及作業。
-
-
-  #### 關於升級程序
-  當您建立工具鏈時，會為來源控制預先配置 GitHub、為建置和部署預先配置 Delivery Pipeline，以及為編輯程式碼預先配置 Eclipse Orion Web IDE。您可以視需要新增工具至工具鏈中。若要開始使用，請按一下 **建立**。
-
-
-  #### 更多資訊
-  [指導教學：將您的專案升級為工具鏈](https://ibm.biz/ids-upgrade-blogpost)
-
-  [文件：開始使用 Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)
-
-  [部落格：Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)
-template.gettingStarted: >-
-  此工具鏈已從您的 [DevOps Services 專案]({{projectUrl}}) 中建立。在建立工具鏈之後，將專案中的構件移轉至工具鏈中之工具的作業會持續一段時間。使用工具鏈之前，請先透過檢閱 [專案頁面]({{projectUrl}}) 上的橫幅以驗證升級的狀態，然後參閱 [這些步驟](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps)，以進行接下來的動作。如需進一步瞭解工具鏈，請參閱[開始使用 Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2)。
+template.description: "工具鏈是一種開放、可延伸的工具系統，其支援應用程式的開發、部署及作業。\n\n#### 關於升級程序\n當您建立工具鏈時，會為來源控制預先配置 GitHub、為建置和部署預先配置 Delivery Pipeline，以及為編輯程式碼預先配置 Eclipse Orion Web IDE。您可以視需要新增更多工具至工具鏈。若要開始，請按一下**建立**。\n\n#### 更多資訊\n[指導教學：將您的專案升級為工具鏈](https://ibm.biz/ids-upgrade-blogpost)\n\n[文件：開始使用 Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)\n\n[部落格：Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)"
+template.gettingStarted: "此工具鏈已從您的 [DevOps Services 專案]({{projectUrl}}) 中建立。在建立工具鏈之後，將專案中的構件移轉至工具鏈中之工具的作業會持續一段時間。使用工具鏈之前，請先透過檢閱 [專案頁面]({{projectUrl}}) 上的橫幅以驗證升級的狀態，然後參閱 [這些步驟](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps)，以進行接下來的動作。如需進一步瞭解工具鏈，請參閱[開始使用 Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2)。"
 github.title: "Github 鏈結"
 github.description: "Github 鏈結綱目"
 github.longDescription: "在 GitHub.com 上將您的原始碼儲存在現有的 Git 儲存庫中，以及透過 Wiki、問題追蹤及拉取要求來參與社交編碼的文化。"
