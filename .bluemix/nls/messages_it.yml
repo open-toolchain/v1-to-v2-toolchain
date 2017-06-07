@@ -1,22 +1,7 @@
 ---
-# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
 template.name: "Aggiornamento alla toolchain"
-template.description: |
-  Una toolchain rappresenta un sistema aperto, estendibile di strumenti che supporta lo sviluppo, la distribuzione e le operazioni di un'applicazione.
-
-
-  #### About the Upgrade Process
-  Quando viene creata, questa toolchain è preconfigurata con GitHub per il controllo origine, Delivery Pipeline per la creazione e la distribuzione e IDE Web Eclipse Orion per la modifica del codice. È possibile aggiungere ulteriori strumenti alla toolchain, in base alle necessità. Per iniziare, fare clic su **Crea**.
-
-
-  #### More Info
-  [Tutorial: Aggiornare il progetto ad una toolchain](https://ibm.biz/ids-upgrade-blogpost)
-
-  [Docs: Introduzione a Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)
-
-  [Blog: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)
-template.gettingStarted: >- 
-  Questa toolchain è stata creata da [DevOps Services project]({{projectUrl}}). La migrazione delle risorse utente dal progetto agli strumenti nella toolchain continua anche dopo che la toolchain è stata creata. Prima di utilizzare la toolchain, verificare lo stato di aggiornamento riesaminando il banner in  [Pagina Progetto]({{projectUrl}}), quindi fare riferimento a  [questi passi](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps) per ciò che va fatto successivamente. Per ulteriori informazioni relative alle toolchain, consultare [Introduzione a Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2).
+template.description: "Una toolchain rappresenta un sistema aperto, estendibile di strumenti che supporta lo sviluppo, la distribuzione e le operazioni di un'applicazione.\n\n#### About the Upgrade Process\nQuando viene creata, questa toolchain è preconfigurata con IBM per il controllo origine, Delivery Pipeline per la creazione e la distribuzione e IDE Web Eclipse Orion per la modifica del codice. È possibile aggiungere ulteriori strumenti alla toolchain, in base alle necessità. Per iniziare, fare clic su **Crea**.\n\n#### More Info\n[Tutorial: Aggiornare il progetto ad una toolchain](https://ibm.biz/ids-upgrade-blogpost)\n\n[Docs: Introduzione a Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)\n\n[Blog: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)"
+template.gettingStarted: "Questa toolchain è stata creata da [DevOps Services project]({{projectUrl}}). La migrazione delle risorse utente dal progetto agli strumenti nella toolchain continua anche dopo che la toolchain è stata creata. Prima di utilizzare la toolchain, verificare lo stato di aggiornamento riesaminando il banner in  [Pagina Progetto]({{projectUrl}}), quindi fare riferimento a  [questi passi](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps) per ciò che va fatto successivamente. Per ulteriori informazioni relative alle toolchain, consultare [Introduzione a Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2)."
 github.title: "Nuovo repository Git"
 github.description: "Schema repository Git"
 github.longDescription: "Il codice sorgente dal repository esistente verrà migrato nel nuovo repository in IBM Hosted Git. È possibile partecipare al social coding attraverso wiki, traccia dei problemi e richieste di pull."
