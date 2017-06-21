@@ -1,6 +1,6 @@
 ---
 template.name: "升级为工具链"
-template.description: "工具链是一个开放的可扩展工具系统，支持开发、部署和操作应用程序。\n\n#### 关于升级过程\n创建此工具链时，预先配置了用于源代码控制的 GitHub、用于构建和部署的 Delivery Pipeline，以及用于编辑代码的 Eclipse Orion Web IDE。您可以按需要在工具链中添加更多工具。要开始操作，请单击**创建**。\n\n#### 更多信息\n[教程：将项目升级为工具链](https://ibm.biz/ids-upgrade-blogpost)\n\n[文档：开始使用 Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)\n\n[博客：Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)"
+template.description: "工具链是一个开放的可扩展工具系统，支持开发、部署和操作应用程序。\n\n#### 关于升级过程\n创建此工具链时，预先配置了用于源代码控制的 GitHub、用于构建和部署的 Delivery Pipeline，以及用于编辑代码的 Eclipse Orion Web IDE。您可以按需要在工具链中添加更多工具。单击**创建**以开始。\n\n#### 更多信息\n[教程：将项目升级为工具链](https://ibm.biz/ids-upgrade-blogpost)\n\n[文档：开始使用 Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)\n\n[博客：Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)"
 template.gettingStarted: "此工具链从 [DevOps Services 项目]({{projectUrl}})创建而来。创建工具链之后，将工件从项目迁移到工具链中的工具将会持续一段时间。使用工具链之前，请复查[项目页面]({{projectUrl}})上的条幅以验证升级状态，然后参阅[这些步骤](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps)以获取下一步操作。要了解有关工具链的更多信息，请参阅[开始使用 Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2)。"
 github.title: "Github 链接"
 github.description: "Github 链接模式"
@@ -32,7 +32,7 @@ github.migrateTAndPItem1Desc: "将基于此查询（从“共享的查询”）�
 github.migrateTAndPItem2Desc: "将不会迁移 Track & Plan 数据。"
 headerSVG.issueTracker: "问题跟踪程序"
 headerSVG.think: "思考"
-headerSVG.code: "代码"
+headerSVG.code: "编码"
 headerSVG.deliver: "交付"
 headerSVG.run: "运行"
 headerSVG.repository: "存储库"
