@@ -36,7 +36,7 @@ github.migrateTAndPItem1Desc: "Os itens de trabalho serão selecionados com base
 github.migrateTAndPItem2Desc: "Dados do Track & Plan não serão migrados."
 headerSVG.issueTracker: "RASTREADOR DE PROBLEMA"
 headerSVG.think: "PENSAR"
-headerSVG.code: "ERRO"
+headerSVG.code: "CODIFICAR"
 headerSVG.deliver: "ENTREGAR"
 headerSVG.run: "EXECUTAR"
 headerSVG.repository: "REPOSITÓRIO"
