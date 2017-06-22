@@ -1,22 +1,8 @@
 ---
 # Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
 template.name: "ツールチェーンへのアップグレード"
-template.description: |
-ツールチェーンは、アプリケーションの開発、デプロイメント、および操作をサポートする拡張可能なオープン・ツール・システムです。
-
-
-  #### アップグレード・プロセスについて
-  このツールチェーンを作成すると、ソース管理のための GitHub、ビルドとデプロイのための Delivery Pipeline、コード編集のための Eclipse Orion Web IDE が予め設定されます。必要に応じてツールチェーンにさらにツールを追加することができます。 開始するには、「作成」をクリックします。
-
-
-  #### 詳細情報
-  [チュートリアル: プロジェクトのツールチェーンへのアップグレード](https://ibm.biz/ids-upgrade-blogpost)
-
-  [Docs: Continuous Delivery の概要](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)
-
-  [ブログ: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)
-template.gettingStarted: >-
- このツールチェーンは [DevOps Services プロジェクト]({{projectUrl}})から作成されました。ツールチェーンの作成後しばらくは、成果物がプロジェクトからツールチェーン内のツールにマイグレーションされ続けます。このツールチェーンを使用する前に、[プロジェクト・ページ]({{projectUrl}})のバナーを参照してアップグレードの状況を確認し、次の作業について[手順](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps)を調べてください。ツールチェーンについて詳しくは、[「Continuous Delivery の概要」](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2)を参照してください。
+template.description: "ツールチェーンは、アプリケーションの開発、デプロイメント、および操作をサポートする拡張可能なオープン・ツール・システムです。\n\n#### アップグレード・プロセスについて\nこのツールチェーンを作成すると、ソース制御については GitHub で、ビルドおよびデプロイメントについては Delivery Pipeline で、コード編集については Eclipse Orion Web IDE で事前構成されます。必要に応じて、さらにツールをツールチェーンに追加できます。開始するには、**「作成」**をクリックします。\n\n#### 詳細\n[Tutorial: Upgrade your project to a toolchain](https://ibm.biz/ids-upgrade-blogpost)\n\n[Docs: Getting started with Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)\n\n[Blog: Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)"
+template.gettingStarted: "このツールチェーンは [DevOps Services プロジェクト]({{projectUrl}})から作成されました。ツールチェーンの作成後しばらくは、成果物がプロジェクトからツールチェーン内のツールにマイグレーションされ続けます。このツールチェーンを使用する前に、[プロジェクト・ページ]({{projectUrl}})のバナーを参照してアップグレードの状況を確認し、次の作業について[手順](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps)を調べてください。ツールチェーンについて詳しくは、[「Getting started with Continuous Delivery」](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2)を参照してください。"
 github.title: "Github リンク"
 github.description: "Github リンク・スキーマ"
 github.longDescription: "GitHub.com で既存の Git リポジトリーにソース・コードを保管し、Wiki、issue tracking、および pull 要求を使用してソーシャル・コーディングに参加します。"
