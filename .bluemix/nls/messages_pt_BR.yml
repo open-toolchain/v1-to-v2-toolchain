@@ -19,7 +19,7 @@ github.trackDeployDescription: "Selecione esta caixa de seleção para rastrear 
 github.new: "Novo(a)"
 headerSVG.issueTracker: "RASTREADOR DE PROBLEMA"
 headerSVG.think: "PENSAR"
-headerSVG.code: "ERRO"
+headerSVG.code: "CODIFICAR"
 headerSVG.deliver: "ENTREGAR"
 headerSVG.run: "EXECUTAR"
 headerSVG.repository: "REPOSITÓRIO"
