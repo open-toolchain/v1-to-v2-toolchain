@@ -1,6 +1,6 @@
 ---
 template.name: "Mise à niveau vers une chaîne d'outils"
-template.description: "Une chaîne d'outils est un système d'outils ouvert et extensible qui prend en charge le développement, le déploiement et les opérations d'une application.\n\n#### A propos du processus de mise à niveau\nLorsque vous créez cette chaîne d'outils, elle est préconfigurée avec GitHub pour le contrôle de source, Delivery Pipeline pour la génération et le déploiement et avec l'interface IDE Web Eclipse Orion pour l'édition du code. Vous pouvez ajouter d'autres outils à la chaîne d'outils selon vos besoins. Pour commencer, cliquez sur **Créer**.\n\n#### Informations supplémentaires\n[Tutoriel : Mise à niveau de votre projet vers une chaîne d'outils](https://ibm.biz/ids-upgrade-blogpost)\n\n[Docs : Initiation à Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)\n\n[Blogue : Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)"
+template.description: "Une chaîne d'outils est un système d'outils ouvert et extensible qui prend en charge le développement, le déploiement et les opérations d'une application.\n\n#### A propos du processus de mise à niveau\nLorsque vous créez cette chaîne d'outils, elle est préconfigurée avec GitHub pour le contrôle des sources, Delivery Pipeline pour la génération et le déploiement, et avec l'interface IDE Web Eclipse Orion pour l'édition du code. Vous pouvez ajouter d'autres outils à la chaîne d'outils selon vos besoins. Pour commencer, cliquez sur **Créer**.\n\n#### Informations supplémentaires\n[Tutoriel : Mise à niveau de votre projet vers une chaîne d'outils](https://ibm.biz/ids-upgrade-blogpost)\n\n[Docs : Initiation à Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)\n\n[Blogue : Bluemix Continuous Delivery](https://www.ibm.com/blogs/bluemix/2016/11/bluemix-continuous-delivery-is-now-live/)"
 template.gettingStarted: "Cette chaîne d'outils a été créée à partir de votre [projet DevOps Services]({{projectUrl}}). La migration d'artefacts à partir du projet vers les outils de la chaîne d'outils continue pendant un moment après la création de la chaîne d'outils. Avant d'utiliser la chaîne d'outils, vérifiez le statut de la mise à niveau en consultant la bannière sur la [page du projet]({{projectUrl}}), puis reportez-vous à [ces étapes](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/upgrade_projects.html#upgrade_next_steps) pour connaître la procédure à suivre. Pour en savoir plus sur les chaînes d'outils, voir [Initiation à Continuous Delivery](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/index.html?pos=2)."
 github.title: "Lien Github"
 github.description: "Schéma de lien Github"
@@ -32,7 +32,7 @@ github.migrateTAndPItem1Desc: "Les éléments de travail seront sélectionnés e
 github.migrateTAndPItem2Desc: "Les données Track & Plan ne seront pas migrées."
 headerSVG.issueTracker: "SUIVI DE PROBLEME"
 headerSVG.think: "PENSER"
-headerSVG.code: "CODE"
+headerSVG.code: "CODER"
 headerSVG.deliver: "DISTRIBUER"
 headerSVG.run: "EXECUTER"
 headerSVG.repository: "REFERENTIEL"
